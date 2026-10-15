@@ -1,0 +1,46 @@
+[
+  {
+    "path": "assets/references/05-rooftop-cinema.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "d38527e95804964fcf47b1ac1e37310f7c69d3db4ec5afdf11e05021e48ad0cd",
+    "purpose": "Original environment, wardrobe, prop, composition and lighting reference; main human figure seen from behind without real-person face input",
+    "generator": "OpenAI image_gen tool",
+    "cost_usd": null
+  },
+  {
+    "path": "assets/references/06-gravity-laundrette.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "e320e344c8ac026ffbdc3b1fa5166b2ab3e93d4f8b7c4a8939886e3c36c8694f",
+    "purpose": "Original environment, wardrobe, prop, composition and lighting reference; main human figure seen from behind without real-person face input",
+    "generator": "OpenAI image_gen tool",
+    "cost_usd": null
+  },
+  {
+    "path": "assets/references/07-ninth-platform.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "e05997fe81b295453a43411d6f720951251bc01f71b59e90d6435a12c0a83fd1",
+    "purpose": "Original environment, wardrobe, prop, composition and lighting reference; main human figure seen from behind without real-person face input",
+    "generator": "OpenAI image_gen tool",
+    "cost_usd": null
+  },
+  {
+    "path": "assets/references/08-glass-tide.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "823d1d3003dad18e8137b1c84e48eb9bb0ba5b8f09975585601bef19dbd60719",
+    "purpose": "Original environment, wardrobe, prop, composition and lighting reference; main human figure seen from behind without real-person face input",
+    "generator": "OpenAI image_gen tool",
+    "cost_usd": null
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "film_id": "05-the-rooftop-cinema",
+  "status": "submission_in_progress",
+  "submitted_at_utc": "2026-10-15T08:44:43Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a COMPLETE 30-second original live-action magical storytelling short with HUMAN characters, a clear setup, complication, clever creative decision, and warm satisfying resolution. @Image1 establishes the rooftop, wardrobe, equipment and lighting. The protagonist is an original fictional adult East Asian woman projectionist about 30, short dark bob under a RED BEANIE, CREAM utility jacket and TEAL trousers. Generate her expressive human face natively and keep her appearance and wardrobe consistent across all shots. All people are human adults; NO ANIMALS, animal characters or creatures. Intimate human emotion with an enormous cinematic city payoff, violet dusk and amber apartment windows, realistic practical production design, 35mm anamorphic photography. @Image2 is the authentic golden ONE COOL / AIFX logo. Reproduce that exact mark, unchanged, physically printed on the BLACK FILM EQUIPMENT CASE beside her projector. Give that physical case a naturally readable medium-close glimpse around 4 seconds; no floating branding, no graphic overlays. Timeline: 0-3s immediate hook, a huge white bedsheet cinema screen balloons off the rooftop like a sail, projectionist leaps and catches one corner, camera swings with the gust. 3-8s medium and over-shoulder: empty folding chairs, old projector and logo-marked equipment case establish her lonely rooftop film night. She bravely tries to stretch the sheet back up, hopeful but alone. 8-14s a second gust tears the screen free, the beautiful white fabric sails away between buildings; she looks crushed. Quick close-up of a single empty chair, then she notices neighboring apartment windows glowing around her. 14-20s she has a creative idea: turns the projector toward the whole apartment block, adjusts its angle, and vibrant moving abstract film light spills across window after window. No words, no interface, no readable text in the projected images. Neighbors notice, open windows and join the beautiful shared play of light, human silhouettes dancing and laughing. Camera tracks from her hopeful eyes into the building. 20-27s magnificent rising crane: the entire apartment courtyard becomes a living open-air cinema of color and human stories, dozens of warmly lit windows and rooftops connect, neighbors arrive on her roof carrying their own chairs, she beams at the suddenly full audience. Enormous but emotionally intimate payoff, realistic original faces, playful surprise. 27-30s comic warm resolution: a late elderly HUMAN neighbor arrives carrying one folding chair, sees every spot full, shrugs and unfolds it triumphantly on a safe little raised step. Projectionist laughs and shifts over to make room; camera gently reveals the happy crowd and the golden logo on the physical case in the foreground. Story fully resolves, all shots keep moving to the last frame. ORIGINAL synchronized sound and music: initial wind snap and cloth whoosh, hopeful original felt-piano and soft plucked strings, a brief quiet disappointment, warm original orchestral/hand-percussion swell as windows light up, footsteps, chair clacks and natural human laughter; satisfying gentle final cadence. No narrator, no spoken words, no lyrics, no existing melodies. Absolutely NO title card, subtitles, captions, text boxes, numbers, credits, readable signs or end slate. The only readable lettering anywhere is the exact authentic in-scene equipment-case logo from @Image2. No cartoon animals, no fantasy creatures, no static slideshow. A complete immersive human short film in 21:9.",
+  "reference": {
+    "path": "assets/references/05-rooftop-cinema.png",
+    "sha256": "d38527e95804964fcf47b1ac1e37310f7c69d3db4ec5afdf11e05021e48ad0cd",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/references/05-rooftop-cinema.png",
+      "sha256": "d38527e95804964fcf47b1ac1e37310f7c69d3db4ec5afdf11e05021e48ad0cd",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    },
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 505151
+  }
+}

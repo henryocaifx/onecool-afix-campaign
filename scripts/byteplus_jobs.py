@@ -73,8 +73,9 @@ def submit(film, auth):
         old = json.loads(ledger.read_text())
         print(film["id"], "reuse", old.get("job_id", old["status"]), flush=True)
         return
-    ref = ROOT / film["reference"]
-    raw = ref.read_bytes()
+    reference_paths=[film["reference"],*film.get("additional_references",[])]
+    reference_data=[(p,(ROOT/p).read_bytes()) for p in reference_paths]
+    raw=reference_data[0][1]
     record = {
         "film_id": film["id"],
         "status": "submission_in_progress",
@@ -83,12 +84,13 @@ def submit(film, auth):
         "foundation_model": "dreamina-seedance-2-5-260628",
         "prompt": film["prompt"],
         "reference": {"path": film["reference"], "sha256": hashlib.sha256(raw).hexdigest(), "transport": "base64 data URL", "role": "reference_image"},
-        "settings": {"duration": 27, "resolution": "1080p", "ratio": "21:9", "generate_audio": True, "watermark": False, "output_format": "mp4", "seed": film["seed"]},
+        "references":[{"path":p,"sha256":hashlib.sha256(data).hexdigest(),"transport":"base64 data URL","role":"reference_image"} for p,data in reference_data],
+        "settings": {"duration": film.get("duration",27), "resolution": "1080p", "ratio": "21:9", "generate_audio": True, "watermark": False, "output_format": "mp4", "seed": film["seed"]},
     }
     save(ledger, record)  # An uncertain submission is never automatically repeated.
     body = {"model": record["endpoint_id"], "content": [
         {"type": "text", "text": film["prompt"]},
-        {"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(raw).decode()}, "role": "reference_image"},
+        *[{"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(data).decode()}, "role": "reference_image"} for p,data in reference_data],
     ], **record["settings"]}
     try:
         r = request(auth, "/contents/generations/tasks", body)
@@ -138,7 +140,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("operation", choices=["submit", "poll"])
     parser.add_argument("--film", help="Optional film ID; otherwise process all four")
+    parser.add_argument("--project-root",default=str(ROOT),help="Separate batch folder; defaults to original campaign")
     args = parser.parse_args()
+    ROOT=Path(args.project_root).resolve()
     films = json.loads((ROOT / "records" / "films.json").read_text())
     auth = token()
     for film in films:

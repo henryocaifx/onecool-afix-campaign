@@ -1,0 +1,12 @@
+{
+  "campaign_name": "ONECOOL AIFX \u2014 Four New Worlds",
+  "campaign_id": "20261015T083844Z-native",
+  "r2_prefix": "campaigns/20261015T083844Z-native/",
+  "bucket": "aifx-studio-campaign",
+  "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
+  "status": "development",
+  "delivery_mode": "Native Seedance output; no transcoding, retiming or post-editing",
+  "requested_duration_seconds": 30,
+  "requested_resolution": "1080p",
+  "requested_ratio": "21:9"
+}
