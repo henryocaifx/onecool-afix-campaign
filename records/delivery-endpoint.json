@@ -1,0 +1,14 @@
+{
+  "bucket": "aifx-studio-campaign",
+  "worker_name": "aifx-delivery-20261015t075922z-fccf3c30",
+  "base_url": "https://aifx-delivery-20261015t075922z-fccf3c30.onecoolaifxdev.workers.dev",
+  "r2_prefix": "campaigns/20261015T075922Z-7d16e228/",
+  "allowed_assets": 17,
+  "user_explicitly_approved_signed_worker": true,
+  "upload_expires_at_utc": "2026-10-15T10:27:57.000Z",
+  "download_expires_at_utc": "2026-10-22T08:27:57.000Z",
+  "bucket_public_access_enabled": false,
+  "signing_secret_location": "Cloudflare Worker secret_text binding only; not returned or stored locally",
+  "access": "Exact-file HMAC URLs; SHA-256-validated create-only PUT; GET/HEAD and byte ranges; no listing, deletion or overwrite route",
+  "cleanup": "Signed access stops at expiry. Worker can be deleted afterwards without deleting R2 objects."
+}

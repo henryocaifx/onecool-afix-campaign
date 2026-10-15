@@ -14,6 +14,9 @@ import urllib.request
 import urllib.error
 
 ROOT=Path(__file__).resolve().parents[1]
+opener=urllib.request.build_opener()
+opener.addheaders=[("User-Agent","Mozilla/5.0 AIFXCampaignDelivery/1.0")]
+urllib.request.install_opener(opener)
 (ROOT/"tmp").mkdir(exist_ok=True)
 state=json.loads((ROOT/"records/transfer-private.json").read_text())
 completed=[]

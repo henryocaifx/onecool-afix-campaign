@@ -3,8 +3,10 @@
   "campaign_id": "20261015T075922Z-fccf3c30",
   "bucket": "aifx-studio-campaign",
   "r2_prefix": "campaigns/20261015T075922Z-7d16e228/",
-  "status": "production",
+  "status": "delivered_and_verified",
   "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
   "bucket_created_at_utc": "2026-10-15T08:04:05.220Z",
-  "delivery_method": "Private R2 bucket with HMAC-signed Cloudflare Worker download URLs; no local R2 keys available"
+  "delivery_method": "Private R2 bucket with HMAC-signed Cloudflare Worker download URLs; no local R2 keys available",
+  "download_expires_at_utc": "2026-10-22T08:27:57.000Z",
+  "delivered_assets": 17
 }
