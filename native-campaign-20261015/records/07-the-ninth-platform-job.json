@@ -1,0 +1,52 @@
+{
+  "film_id": "07-the-ninth-platform",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T08:46:08Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a thrilling original 30-second HOLLYWOOD-STYLE SCIENCE-FI MOVIE TRAILER with HUMAN characters, immediate mystery, emotional stakes, escalating purposeful montage and one breathtaking climax tease. This is a new original story about a rail engineer crossing impossible gravity, no heist and no imagination-disappearing premise. @Image1 establishes the immense indigo-and-brass station and wardrobe. Hero is original fictional adult Black female rail engineer about 35, cropped natural dark hair, SLATE-BLUE engineering coat with YELLOW reflective trim, practical boots and compact black-brass equipment case. Generate her human face natively, expressive, ordinary and believable, maintain identity across shots. Supporting stranded passenger is an original adult human man in a simple sand-colored coat. No animals, animal people or creatures. Realistic epic live-action cinematography, tactile metal, wet stone, amber light cutting indigo mist, anamorphic lenses, emotional close-ups and enormous architecture. @Image2 is the authentic gold ONE COOL / AIFX mark: reproduce it exactly as physical printing on her equipment case. Brief readable case detail in the early character shot, never as title or overlay. Timeline: 0-3s unforgettable hook, a coffee droplet rises from the platform, hero looks up and an entire luminous TRAIN arrives on tracks attached to the CEILING above her. Rapid low tilt reveals impossible scale. 3-8s premise and stakes: on the far side of a vast station gap, a stranded human passenger reaches toward her from a closing carriage door. The rails between them begin folding away into darkness; she grips her practical tools and chooses to act. Close-ups of their hands and determined eyes, the authentic logo visible on the real equipment case as she sets it down. 8-14s accelerating montage: hero sprints along a platform that turns vertical; a corridor rolls around her while she stays upright; luminous trains glide between enormous mirrored city halves, clear geography and consistent human face. Original physical action, no abstract slideshow. 14-20s she reaches a brass rail switch as the last connecting bridge retracts, draws a decisive curved route on dusty metal with chalk without letters, and throws the manual lever. The switch resists; she braces, pushes with all her strength and finally locks it into place. Dramatic half-second silence before the mechanism catches. 20-27s massive HERO SHOT: a full-size train arcs out of the station across a newly unfolding ribbon of track suspended between TWO FOLDED CITY SKYLINES, hundreds of buildings curving toward each other like a giant architectural ring; hero tiny on the front step, wind whipping her coat, camera sweeps from close human determination to an astonishing ultrawide. The rescued route is possible but the adventure remains dangerous. 27-30s climax tease: she reaches toward the stranded passenger as the two train doors align across a narrow gap, fingertips almost touch, then a final sweeping shot plunges with the trains into the glowing city ring. End on exhilarating motion and unresolved adventure, NO title reveal or end card. Original synchronized audio: near-silent opening, deep rail horn, rising metallic pulse, strong original orchestral/synth action rhythm, footsteps and rail impacts, one breath of silence at the lever, enormous brass/drum climax and rushing-air tail. No narrator, no spoken words, no lyrics, no existing melodies. No titles, subtitles, captions, text boxes, credits, numbers, readable station signage or UI. The authentic physically printed ONE COOL / AIFX mark is the ONLY readable lettering. No animals. Cinematic 21:9 with sophisticated pacing and clear human stakes.",
+  "reference": {
+    "path": "assets/references/07-ninth-platform.png",
+    "sha256": "e05997fe81b295453a43411d6f720951251bc01f71b59e90d6435a12c0a83fd1",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/references/07-ninth-platform.png",
+      "sha256": "e05997fe81b295453a43411d6f720951251bc01f71b59e90d6435a12c0a83fd1",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    },
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 707151
+  },
+  "job_id": "cgt-20261015164636-r7ayx",
+  "result": {
+    "id": "cgt-20261015164636-r7ayx",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792053997,
+    "updated_at": 1792053997,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

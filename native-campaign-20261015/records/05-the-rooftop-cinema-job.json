@@ -1,6 +1,6 @@
 {
   "film_id": "05-the-rooftop-cinema",
-  "status": "submission_in_progress",
+  "status": "running",
   "submitted_at_utc": "2026-10-15T08:44:43Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -33,5 +33,20 @@
     "watermark": false,
     "output_format": "mp4",
     "seed": 505151
+  },
+  "job_id": "cgt-20261015164505-mrjcf",
+  "result": {
+    "id": "cgt-20261015164505-mrjcf",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792053908,
+    "updated_at": 1792053908,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
   }
 }

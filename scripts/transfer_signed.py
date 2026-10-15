@@ -12,8 +12,11 @@ from pathlib import Path
 import subprocess
 import urllib.request
 import urllib.error
+import argparse
 
 ROOT=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser();parser.add_argument("--project-root",default=str(ROOT));args=parser.parse_args()
+ROOT=Path(args.project_root).resolve()
 opener=urllib.request.build_opener()
 opener.addheaders=[("User-Agent","Mozilla/5.0 AIFXCampaignDelivery/1.0")]
 urllib.request.install_opener(opener)

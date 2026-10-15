@@ -13,3 +13,6 @@ tmp/
 review/
 aifx-studio-production-assets.zip
 deliverables-manifest.json
+**/sources/*.mp4
+**/records/*-private.json
+**/deliverables-manifest.json

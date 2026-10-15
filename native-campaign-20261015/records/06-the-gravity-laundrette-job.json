@@ -1,0 +1,52 @@
+{
+  "film_id": "06-the-gravity-laundrette",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T08:45:43Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a COMPLETE 30-second original live-action surreal PHYSICAL-COMEDY short with HUMAN people, clear setup, escalating complication and a clever satisfying solution plus a visual joke payoff. Use @Image1 for exact mint-and-coral laundrette art direction and wardrobe. Lead: original fictional adult South Asian male laundrette attendant about 30, curly dark hair, TEAL coveralls and a burnt-ORANGE apron. Generate his expressive human face natively and preserve it across every shot. Supporting customers are original human adults. NO animals, anthropomorphic animals, toys with faces or creatures. High-end realistic cinematic comedy, saturated mint, coral and chrome, warm morning light, 28mm/40mm lenses, motivated camera movement, superb human acting. @Image2 is the actual golden ONE COOL / AIFX logo: copy the exact mark onto a plain black film-production equipment case on the folding counter; it must look physically printed, naturally visible in a clean medium shot, never a floating caption or added overlay. Timeline: 0-3s instant hook close-up, attendant's fresh coffee pours UP out of the cup and hangs above his head; he slowly looks up, aghast. 3-8s the dryer door pops open and a single sock drifts upward; he reaches for it, one shoe starts lifting, quick reaction shot establishes gravity going wrong. Logo case naturally visible on counter behind him. 8-14s controlled comic escalation: sheets, shirts and colorful socks orbit the room; two adult customers clutch the counter while a white sheet sails over the attendant like a tiny parachute. Tracking shot follows him gliding across the floor on a wheeled laundry basket, no dangerous injury, clear readable choreography. 14-20s he spots a long clothesline, grins and makes a clever choice: loops and clips the floating laundry into one smooth spiraling line, leading it around the spinning dryer like a graceful ribbon. He uses the room's strange gravity instead of fighting it. One deliberate lever movement makes the spiraling clothes pass neatly through his hands. 20-27s triumphant visual payoff: gravity settles, the clothes float DOWN in beautiful geometric order and land PERFECTLY FOLDED on the counter; a last white sheet folds itself like an elegant stage curtain. Wide dolly-back reveals a pristine shop and delighted human customers; attendant takes a small bow. 27-30s comic sting with clear payoff: the original missing sock lands gently in his outstretched hand; he smiles without looking, then notices his other shoe drifting up toward the ceiling. Deadpan look up, one tiny helpless shrug, cut on the joke with moving footage, no title. Original synchronized audio: fresh plucked double bass and brushed drums, playful woodwind accents, coffee glug rising into a whistle, dryer clicks, cloth flaps, squeaky basket wheels, one short music pause for the floating shoe, satisfying original jazz-comedy button. No dialogue, no narrator, no lyrics, no existing tune. Absolutely no title, subtitle, caption, text box, numbers, readable machine labels, credits, typography or end slate. Only the authentic physical ONE COOL / AIFX logo from @Image2 may contain readable lettering. Keep all people and limbs coherent, continuity strong, comedy clean and genuinely human. Cinematic 21:9, complete story, fully moving footage.",
+  "reference": {
+    "path": "assets/references/06-gravity-laundrette.png",
+    "sha256": "e320e344c8ac026ffbdc3b1fa5166b2ab3e93d4f8b7c4a8939886e3c36c8694f",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/references/06-gravity-laundrette.png",
+      "sha256": "e320e344c8ac026ffbdc3b1fa5166b2ab3e93d4f8b7c4a8939886e3c36c8694f",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    },
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 606151
+  },
+  "job_id": "cgt-20261015164608-067r7",
+  "result": {
+    "id": "cgt-20261015164608-067r7",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792053968,
+    "updated_at": 1792053968,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}
