@@ -1,0 +1,37 @@
+{
+  "batch_only": false,
+  "create_time": "2026-08-07T06:39:30Z",
+  "description": "",
+  "endpoint_model_type": "FoundationModel",
+  "id": "ep-20260807143930-zwn48",
+  "model_reference": {
+    "custom_model_id": "",
+    "foundation_model": {
+      "model_version": "260628",
+      "name": "dreamina-seedance-2-5"
+    }
+  },
+  "model_unit_id": "",
+  "moderation": {
+    "strategy": "Default"
+  },
+  "name": "aifx-tgif",
+  "project_name": "Customer",
+  "rate_limit": {
+    "rpm": -1,
+    "tpm": -1
+  },
+  "rolling_id": null,
+  "scale_tier_id": null,
+  "status": "Running",
+  "status_reason": "",
+  "support_rolling": false,
+  "support_scale_tier": false,
+  "tags": [
+    {
+      "key": "sys:ark:createdBy",
+      "value": "IAMUser/86587341/Customer"
+    }
+  ],
+  "update_time": "2026-08-07T06:39:30Z"
+}

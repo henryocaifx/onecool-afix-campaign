@@ -1,0 +1,123 @@
+NEWS
+FEATURED
+CAST
+HOT
+CINE
+HOT
+MOVI BOARD (SD2)
+HOT
+MOVI (SD2)
+HOT
+MOVI2 (SD2.5)
+HOT
+MOVI3
+HOT
+CINEPIE (NB2)
+HOT
+IDV FIX
+HOT
+PRODUCTS
+CAST
+IMAGE SYNTHESIS
+CAST
+CASTEQUILA
+CINE
+SCREENWRITING STUDIO
+CINE
+CINEPIE (NB2)
+MOTION
+CINEMATIC VIDEO
+MOTIONMATE
+MOVI BOARD (SD2)
+MOVI (SD2)
+MOVI2 (SD2.5)
+MOVI3
+DAWG
+CREATIVE LAB
+IDV FIX
+Search workspace...
+⌘
+K
+Sign In
+RELEASE 2.0 • NEXT GEN GENERATIVE STUDIO
+AIFX Studio
+
+The ultimate collaborative environment for AI-powered filmmaking.
+
+AI-POWERED CHARACTERS · REAL-TIME SIMULATION
+
+ALL MODULES
+ACTORS (CAST)
+SCRIPTS (CINE)
+VIDEOS (MOTION)
+CREATIVE (DAWGS)
+CHRONICLES
+SYSTEM HUD STATUS
+AIFX MULTIMODAL GENERATIVE SUITE
+
+Select a focus deck below or click a card to immediately enter the staging pipeline. All engines share high-fidelity IDV assets and ComfyUI backend rigs.
+
+9
+ENGINES
+SYNCED
+VAULT STATE
+📰 TIMELINE
+News
+
+Latest updates, feature releases, and project milestones for AIFX Studio.
+
+LAUNCH
+🎭 ACTOR
+FEATURED
+Cast
+
+Create and manage digital character portraits for consistent actors across productions.
+
+LAUNCH
+🎴 CHARACTER SHEET
+CasTequila
+
+Premium high-resolution Character Sheet Generator for multi-perspective consistent sheets.
+
+LAUNCH
+🎬 SEQUENCE
+Cine
+
+Transform scripts into cinematic storyboards with intelligent visual composition.
+
+LAUNCH
+💬 CONVERSATIONAL
+CinePie (NB2)
+
+Conversational multi-turn visual AI studio for interactive image generation and real-time edits.
+
+LAUNCH
+🌟 TRANSITION
+MotionMate
+
+Intelligent animation assistant for seamless character movement and transitions.
+
+LAUNCH
+⚡ 1-CLICK
+FEATURED
+Movi Board
+
+Streamlined one-click storyboard animation with automated prompt synthesis.
+
+LAUNCH
+⏳ HISTORY THREAD
+FEATURED
+Movi
+
+Thread-style chronological studio & parameter history library
+
+LAUNCH
+👑 PRO
+FEATURED
+IDV Fix
+
+The ultimate super-powered AI toolset for production masters.
+
+LAUNCH
+
+POWERED BY AIFX STUDIO ENGINE

@@ -1,0 +1,12 @@
+.venv/
+vendor/
+__pycache__/
+*.pyc
+.env*
+!*.example
+films/*.mp4
+sources/*.mp4
+sources/*.mov
+records/*-private.json
+research/raw/
+tmp/

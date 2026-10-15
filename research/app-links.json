@@ -1,0 +1,118 @@
+[
+  {
+    "text": "",
+    "href": "/"
+  },
+  {
+    "text": "NEWS",
+    "href": "/news"
+  },
+  {
+    "text": "CAST\nHOT",
+    "href": "/cast"
+  },
+  {
+    "text": "CINE\nHOT",
+    "href": "/cine"
+  },
+  {
+    "text": "MOVI BOARD (SD2)\nHOT",
+    "href": "/motionmoo"
+  },
+  {
+    "text": "MOVI (SD2)\nHOT",
+    "href": "/moscowmule"
+  },
+  {
+    "text": "MOVI2 (SD2.5)\nHOT",
+    "href": "/movi2"
+  },
+  {
+    "text": "MOVI3\nHOT",
+    "href": "/movi3"
+  },
+  {
+    "text": "CINEPIE (NB2)\nHOT",
+    "href": "/cinepie"
+  },
+  {
+    "text": "IDV FIX\nHOT",
+    "href": "/supadawg"
+  },
+  {
+    "text": "CAST",
+    "href": "/cast"
+  },
+  {
+    "text": "CASTEQUILA",
+    "href": "/castequila"
+  },
+  {
+    "text": "CINE",
+    "href": "/cine"
+  },
+  {
+    "text": "CINEPIE (NB2)",
+    "href": "/cinepie"
+  },
+  {
+    "text": "MOTIONMATE",
+    "href": "/motionmate"
+  },
+  {
+    "text": "MOVI BOARD (SD2)",
+    "href": "/motionmoo"
+  },
+  {
+    "text": "MOVI (SD2)",
+    "href": "/moscowmule"
+  },
+  {
+    "text": "MOVI2 (SD2.5)",
+    "href": "/movi2"
+  },
+  {
+    "text": "MOVI3",
+    "href": "/movi3"
+  },
+  {
+    "text": "IDV FIX",
+    "href": "/supadawg"
+  },
+  {
+    "text": "\ud83d\udcf0 TIMELINE\nNews\n\nLatest updates, feature releases, and project milestones for AIFX Studio.\n\nLAUNCH",
+    "href": "/news"
+  },
+  {
+    "text": "\ud83c\udfad ACTOR\nFEATURED\nCast\n\nCreate and manage digital character portraits for consistent actors across productions.\n\nLAUNCH",
+    "href": "/cast"
+  },
+  {
+    "text": "\ud83c\udfb4 CHARACTER SHEET\nCasTequila\n\nPremium high-resolution Character Sheet Generator for multi-perspective consistent sheets.\n\nLAUNCH",
+    "href": "/castequila"
+  },
+  {
+    "text": "\ud83c\udfac SEQUENCE\nCine\n\nTransform scripts into cinematic storyboards with intelligent visual composition.\n\nLAUNCH",
+    "href": "/cine"
+  },
+  {
+    "text": "\ud83d\udcac CONVERSATIONAL\nCinePie (NB2)\n\nConversational multi-turn visual AI studio for interactive image generation and real-time edits.\n\nLAUNCH",
+    "href": "/cinepie"
+  },
+  {
+    "text": "\ud83c\udf1f TRANSITION\nMotionMate\n\nIntelligent animation assistant for seamless character movement and transitions.\n\nLAUNCH",
+    "href": "/motionmate"
+  },
+  {
+    "text": "\u26a1 1-CLICK\nFEATURED\nMovi Board\n\nStreamlined one-click storyboard animation with automated prompt synthesis.\n\nLAUNCH",
+    "href": "/motionmoo"
+  },
+  {
+    "text": "\u23f3 HISTORY THREAD\nFEATURED\nMovi\n\nThread-style chronological studio & parameter history library\n\nLAUNCH",
+    "href": "/moscowmule"
+  },
+  {
+    "text": "\ud83d\udc51 PRO\nFEATURED\nIDV Fix\n\nThe ultimate super-powered AI toolset for production masters.\n\nLAUNCH",
+    "href": "/supadawg"
+  }
+]

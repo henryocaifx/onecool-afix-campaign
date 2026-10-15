@@ -1,0 +1,9 @@
+{
+  "endpoint_verified": true,
+  "temporary_scoped_token_obtained": true,
+  "list_status": 200,
+  "response_keys": [
+    "total",
+    "items"
+  ]
+}
