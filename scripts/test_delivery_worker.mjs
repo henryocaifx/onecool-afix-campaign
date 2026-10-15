@@ -42,4 +42,18 @@ async function nativeSigned(secretValue=nativeSecret){
 assert.equal((await worker.fetch(new Request(valid),nativeEnv)).status,404);
 assert.equal((await worker.fetch(new Request(await nativeSigned()),nativeEnv)).status,404);
 assert.equal((await worker.fetch(new Request(await nativeSigned(secret)),nativeEnv)).status,403);
+const promoKey="campaigns/promo/ten.mp4",promoSecret=crypto.randomUUID()+crypto.randomUUID();
+const promoEnv={...nativeEnv,PROMO_PREFIX:"campaigns/promo/",PROMO_ALLOWED_KEYS:JSON.stringify([promoKey]),PROMO_SIGNING_KEY:promoSecret,PROMO_EXPIRES_AT:String(now+10800),PROMO_UPLOAD_EXPIRES_AT:String(now+600)};
+async function promoSigned(keyValue=promoKey,secretValue=promoSecret){
+  const e=String(now+8000),s="3",t="video/mp4";
+  const k=await crypto.subtle.importKey("raw",new TextEncoder().encode(secretValue),{name:"HMAC",hash:"SHA-256"},false,["sign"]);
+  const sig=await crypto.subtle.sign("HMAC",k,new TextEncoder().encode(canonical("GET",keyValue,e,hash,s,t)));
+  return "https://example.invalid/"+keyValue+"?"+new URLSearchParams({e,h:hash,s,t,sig:Array.from(new Uint8Array(sig),b=>b.toString(16).padStart(2,"0")).join("")});
+}
+assert.equal((await worker.fetch(new Request(valid),promoEnv)).status,404);
+assert.equal((await worker.fetch(new Request(await nativeSigned()),promoEnv)).status,404);
+assert.equal((await worker.fetch(new Request(await promoSigned()),promoEnv)).status,404);
+assert.equal((await worker.fetch(new Request(await promoSigned(promoKey,nativeSecret)),promoEnv)).status,403);
+assert.equal((await worker.fetch(new Request(await promoSigned(promoKey,secret)),promoEnv)).status,403);
+assert.equal((await worker.fetch(new Request(await promoSigned("campaigns/promo/unauthorized.mp4")),promoEnv)).status,404);
 console.log("Delivery bridge: signatures, expiry, path scope, metadata binding, and overwrite prevention passed.");

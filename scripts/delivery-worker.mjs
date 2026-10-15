@@ -11,12 +11,12 @@ export default {
     try {
       const url = new URL(request.url);
       const key = decodeURIComponent(url.pathname.slice(1));
-      const native=Boolean(env.NATIVE_PREFIX && key.startsWith(env.NATIVE_PREFIX));
-      const prefix=native?env.NATIVE_PREFIX:env.PREFIX;
-      const allowed = JSON.parse(native?env.NATIVE_ALLOWED_KEYS:env.ALLOWED_KEYS);
-      const expires=Number(native?env.NATIVE_EXPIRES_AT:env.EXPIRES_AT);
-      const uploadExpires=Number(native?env.NATIVE_UPLOAD_EXPIRES_AT:env.UPLOAD_EXPIRES_AT);
-      const signingKey=native?env.NATIVE_SIGNING_KEY:env.SIGNING_KEY;
+      const scope=["PROMO_","NATIVE_"].find(s=>env[s+"PREFIX"] && key.startsWith(env[s+"PREFIX"])) || "";
+      const prefix=env[scope+"PREFIX"];
+      const allowed = JSON.parse(env[scope+"ALLOWED_KEYS"]);
+      const expires=Number(env[scope+"EXPIRES_AT"]);
+      const uploadExpires=Number(env[scope+"UPLOAD_EXPIRES_AT"]);
+      const signingKey=env[scope+"SIGNING_KEY"];
       if (!key.startsWith(prefix) || !allowed.includes(key)) {
         return new Response("Not found", { status: 404 });
       }

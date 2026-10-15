@@ -1,0 +1,46 @@
+{
+  "film_id": "12-the-clay-set-catastrophe",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T09:06:17Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Premium claymation production comedy. CAST: No human or animal cast. Three expressive original clay filmmaking objects: a mustard cinema camera on chunky wheels, a teal articulated studio lamp and a burgundy boom microphone on a little rolling stand. Convey personality through mechanical movement; no faces or animal parts. WORLD AND PHOTOGRAPHY: A lavish miniature clay film studio with a deliberately handmade lunar landscape, chunky practical lights and pastel blue cyclorama. Distinct high-end clay animation, tactile soft plasticine material, expressive character acting, smoothly animated cinematography. EXACT 30-SECOND STORY: 0–3s hook: a tiny wheeled clay cinema camera aims proudly at a perfect clay moon; the moon immediately squashes into a pancake with a soft plop, and the camera lens slowly droops in dismay. 3–8s: the camera rolls out of its black clay equipment case, clearly bearing the supplied gold ONECOOL AIFX mark; the teal lamp bends over the pancake while the burgundy microphone leans in like a curious friend. 8–14s: joyful object teamwork: the lamp warms and bends the pancake into a curved ramp, the microphone nudges little mountains into place, and the camera rolls a circular dolly path around the set. 14–20s: their mistake becomes an ingenious circular moon racetrack; all three filmmaking objects glide along it, bouncing in rhythmic stop-motion as the little camera films their extraordinary playground. 20–27s: spectacular orbit reveals an entire whimsical clay planet made from the studio set, circular track weaving between tactile mountains and pastel cloud rings, the three friendly objects riding together. 27–30s: the camera proudly settles beside the physical logo case; a pea-sized clay moon drops onto its lens hood with a soft plop. The camera tilts up, the lamp bends as if laughing, and the microphone catches the tiny final bounce. ORIGINAL SOUNDTRACK: Original bouncy tuba, mallet percussion and pizzicato score, tactile clay squishes, wooden dolly rattles and a precisely timed soft final plop. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3–8 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+  "reference": {
+    "path": "assets/brand/onecool-logo.png",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 909454
+  },
+  "job_id": "cgt-20261015170619-4jld7",
+  "result": {
+    "id": "cgt-20261015170619-4jld7",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792055179,
+    "updated_at": 1792055179,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

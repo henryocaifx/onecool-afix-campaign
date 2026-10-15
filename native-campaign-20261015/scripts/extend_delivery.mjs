@@ -1,7 +1,8 @@
 // Extend the existing user-approved endpoint. Its original secret binding and
 // 17 original object authorizations remain intact; native files use a new key.
 export async function extendDelivery(cloudflare,accountId,options) {
-  const {source,files,prefix,workerName,subdomain,legacy}=options;
+  const {source,files,prefix,workerName,subdomain,legacy,scope="NATIVE",preservedBindings=[]}=options;
+  if(!["NATIVE","PROMO"].includes(scope))throw new Error("Invalid delivery scope");
   const now=Math.floor(Date.now()/1000), downloadExpiry=now+7*86400, uploadExpiry=now+7200;
   const secret=Array.from(crypto.getRandomValues(new Uint8Array(32)),x=>x.toString(16).padStart(2,"0")).join("");
   const metadata={main_module:"worker.mjs",compatibility_date:"2026-10-15",compatibility_flags:["nodejs_compat"],keep_bindings:["secret_text"],observability:{enabled:true,head_sampling_rate:1,redact_query_string:true},bindings:[
@@ -10,11 +11,12 @@ export async function extendDelivery(cloudflare,accountId,options) {
     {name:"ALLOWED_KEYS",type:"plain_text",text:JSON.stringify(legacy.keys)},
     {name:"EXPIRES_AT",type:"plain_text",text:String(legacy.downloadExpiry)},
     {name:"UPLOAD_EXPIRES_AT",type:"plain_text",text:String(legacy.uploadExpiry)},
-    {name:"NATIVE_PREFIX",type:"plain_text",text:prefix},
-    {name:"NATIVE_ALLOWED_KEYS",type:"plain_text",text:JSON.stringify(files.map(x=>x.key))},
-    {name:"NATIVE_EXPIRES_AT",type:"plain_text",text:String(downloadExpiry)},
-    {name:"NATIVE_UPLOAD_EXPIRES_AT",type:"plain_text",text:String(uploadExpiry)},
-    {name:"NATIVE_SIGNING_KEY",type:"secret_text",text:secret},
+    ...preservedBindings,
+    {name:scope+"_PREFIX",type:"plain_text",text:prefix},
+    {name:scope+"_ALLOWED_KEYS",type:"plain_text",text:JSON.stringify(files.map(x=>x.key))},
+    {name:scope+"_EXPIRES_AT",type:"plain_text",text:String(downloadExpiry)},
+    {name:scope+"_UPLOAD_EXPIRES_AT",type:"plain_text",text:String(uploadExpiry)},
+    {name:scope+"_SIGNING_KEY",type:"secret_text",text:secret},
   ]};
   const boundary="AIFX"+crypto.randomUUID().replaceAll("-","");
   const body=["--"+boundary,'Content-Disposition: form-data; name="metadata"',"Content-Type: application/json","",JSON.stringify(metadata),"--"+boundary,'Content-Disposition: form-data; name="worker.mjs"; filename="worker.mjs"',"Content-Type: application/javascript+module","",source,"--"+boundary+"--",""] .join("\r\n");

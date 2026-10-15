@@ -1,0 +1,12 @@
+{
+  "worker_name": "aifx-delivery-20261015t075922z-fccf3c30",
+  "base_url": "https://aifx-delivery-20261015t075922z-fccf3c30.onecoolaifxdev.workers.dev",
+  "bucket": "aifx-studio-campaign",
+  "prefix": "campaigns/20261015T083844Z-native/",
+  "upload_expires_at_utc": "2026-10-15T11:00:26.000Z",
+  "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+  "original_links_preserved": true,
+  "allowed_assets": 4,
+  "bucket_public_access_enabled": false,
+  "signing_secret_location": "Cloudflare Worker secret_text binding only; not returned or stored locally"
+}

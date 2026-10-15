@@ -1,0 +1,46 @@
+{
+  "film_id": "14-the-ink-and-silk-set",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T09:06:21Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Painterly wuxia dance fantasy. CAST: An original adult East Asian woman movement director with a vermilion silk costume and long tied dark hair; two adult human performers in ivory. Graceful human faces and athletic nonviolent choreography, no weapons or combat. WORLD AND PHOTOGRAPHY: A beautiful hybrid of realistic human performance and Chinese ink-wash landscapes: ivory mist, charcoal mountain silhouettes, flowing vermilion silk and tactile water reflections. Cinematic natural faces, sumptuous high-speed fabric motion and painterly world transformations. EXACT 30-SECOND STORY: 0–3s hook: the heroine snaps open a long red silk ribbon and the empty white space behind her ripples into a vast ink-painted mountain valley; camera follows the ribbon into depth. 3–8s: she steps past a real black film-equipment case bearing the supplied ONECOOL AIFX mark, lifts a small cinema camera and gestures for two human performers to follow her onto a stone terrace. 8–14s: joyful flowing choreography: the human performers leap through trailing silk arcs while ink mountains bloom in their wake, camera tracks close to grounded feet then rises with the ribbon, no fighting. 14–20s: a misty ravine interrupts the dance; the heroine and performers toss their long red fabrics across it, which become an elegant suspended silk bridge. They cross together with playful synchronized steps. 20–27s: glorious sweeping panorama reveals red silk winding through an immense black-and-white painted valley, real human silhouettes dancing across layered terraces, the heroine filming them as her simple motion creates a spectacular world. 27–30s: silk settles back around the heroine beside the logo case; one ribbon tip mischievously lands on her nose, she blows it away and exchanges a delighted human smile with her performers. End in the moving landscape. ORIGINAL SOUNDTRACK: Original modern cinematic score using plucked strings, airy flute, restrained hand percussion and rising orchestral warmth, close silk swishes, light footsteps and a playful final breath-like flourish. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3–8 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+  "reference": {
+    "path": "assets/brand/onecool-logo.png",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 909656
+  },
+  "job_id": "cgt-20261015170622-r9j4x",
+  "result": {
+    "id": "cgt-20261015170622-r9j4x",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792055183,
+    "updated_at": 1792055189,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

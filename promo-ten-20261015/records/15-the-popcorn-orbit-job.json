@@ -1,0 +1,46 @@
+{
+  "film_id": "15-the-popcorn-orbit",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T09:06:23Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Retro-futurist space comedy. CAST: Two original adult human space filmmakers: a South Asian woman cinematographer with curly dark hair and a burnt-orange flight suit, and an older white male sound recordist with round glasses and a teal suit. Cheerful, believable human performances. WORLD AND PHOTOGRAPHY: An optimistic 1970s-inspired spaceship cinema cabin: cream molded panels, orange cushions, brushed steel, enormous curved window. Practical miniature space exteriors, gorgeous cosmic color, photoreal tactile interior. All panels blank or geometric without lettering. EXACT 30-SECOND STORY: 0–3s hook: a single popcorn piece floats out of a bowl; the cinematographer tries to catch it with her mouth, misses, and it drifts toward the giant window. 3–8s: she gently pushes off a seat, collects a cinema camera from a floating black equipment case with the supplied gold ONECOOL AIFX mark, while the recordist steadies a boom microphone and points outside. 8–14s: camera glides with them in convincing zero gravity as they playfully chase the floating popcorn through the cabin; their bodies remain coherent and their human faces expressive, shoes tapping cushions gently. 14–20s: they reach the window and discover an enormous luminous ringed planet; the tiny popcorn aligns with the planet for a funny forced-perspective eclipse. She realizes the shot, raises her camera and carefully frames it. 20–27s: magnificent pull through the curved window to reveal their small spaceship skimming a vast sparkling planetary ring, then back to the two filmmakers capturing cosmic wonder together; nebula colors echo orange and teal. 27–30s: recordist finally catches the popcorn, looks triumphant, then dozens more float out of the bowl behind him. The cinematographer silently laughs, camera still rolling beside the logo case. Finish on the human comic payoff. ORIGINAL SOUNDTRACK: Original playful analog-synth space score with warm orchestral strings, soft cabin hum, popcorn taps and a light sparkling percussion cascade for the final gag. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3–8 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+  "reference": {
+    "path": "assets/brand/onecool-logo.png",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 909757
+  },
+  "job_id": "cgt-20261015170623-zs9zv",
+  "result": {
+    "id": "cgt-20261015170623-zs9zv",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792055184,
+    "updated_at": 1792055207,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

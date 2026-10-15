@@ -1,10 +1,10 @@
 {
-  "campaign_name": "ONECOOL AIFX — Ten Ways Into Wonder",
+  "campaign_name": "ONECOOL AIFX \u2014 Ten Ways Into Wonder",
   "campaign_id": "20261015T090200Z-promo-ten",
   "r2_prefix": "campaigns/20261015T090200Z-promo-ten/",
   "bucket": "aifx-studio-campaign",
   "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
-  "status": "creative_prepared",
+  "status": "ten_native_jobs_submitted",
   "delivery_mode": "Unmodified native Seedance MP4; no transcoding or post-editing",
   "requested_duration_seconds": 30,
   "requested_resolution": "1080p",
