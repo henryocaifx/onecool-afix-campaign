@@ -10,3 +10,6 @@ sources/*.mov
 records/*-private.json
 research/raw/
 tmp/
+review/*-sheet.png
+review/*-source-*.png
+review/*-final-*.png

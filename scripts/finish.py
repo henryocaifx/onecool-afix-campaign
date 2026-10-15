@@ -36,13 +36,15 @@ def finish(film):
         args += ["-loop", "1", "-framerate", "24", "-i", str(graphics/(fid+"-title.png"))]
     graph = [
         "[0:v]setpts=PTS-STARTPTS,fps=24,scale=2520:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=2520:1080,setsar=1,format=yuv420p,tpad=stop_mode=clone:stop_duration=4,trim=duration=30[v0]",
-        "[v0][1:v]overlay=0:0:enable='between(t,3,5.5)'[v1]",
-        "[v1][2:v]overlay=0:0:enable='gte(t,24.25)*lt(t,27)'[v2]",
-        "[3:v]crop=1920:650:0:0,scale=640:217:flags=lanczos,format=rgba[ui]",
+        "[1:v]format=rgba,fade=t=in:st=3:d=0.15:alpha=1,fade=t=out:st=5.3:d=0.2:alpha=1[bug]",
+        "[v0][bug]overlay=0:0:enable='between(t,3,5.5)'[v1]",
+        "[2:v]format=rgba,fade=t=in:st=24.25:d=0.2:alpha=1[product]",
+        "[v1][product]overlay=0:0:enable='gte(t,24.25)*lt(t,27)'[v2]",
+        "[3:v]crop=1920:650:0:0,scale=640:217:flags=lanczos,format=rgba,fade=t=in:st=24.25:d=0.2:alpha=1[ui]",
         "[v2][ui]overlay=132:750:enable='gte(t,24.25)*lt(t,27)'[v3]",
     ]
     if trailer:
-        graph += ["[v3][6:v]overlay=0:0:enable='gte(t,23.15)*lt(t,25.65)'[v4]"]
+        graph += ["[6:v]format=rgba,fade=t=in:st=23.15:d=0.2:alpha=1,fade=t=out:st=25.4:d=0.25:alpha=1[title]", "[v3][title]overlay=0:0:enable='gte(t,23.15)*lt(t,25.65)'[v4]"]
     else:
         graph += ["[v3]null[v4]"]
     graph += [
