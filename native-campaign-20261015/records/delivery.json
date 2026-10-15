@@ -1,0 +1,62 @@
+[
+  {
+    "local_path": "sources/05-the-rooftop-cinema.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T083844Z-native/05-the-rooftop-cinema.mp4",
+    "bytes": 62839943,
+    "sha256": "56df80d6bd44a1cfc72c53a2ce23adc18ad1a10f815d6da3c39641b1c38aa6ff",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"8f622958e0bff748782305850a697530\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+    "status": "uploaded_and_verified"
+  },
+  {
+    "local_path": "sources/06-the-gravity-laundrette.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T083844Z-native/06-the-gravity-laundrette.mp4",
+    "bytes": 66097883,
+    "sha256": "a78dc84dc0dee99fda822df58c30d1480cbd4d8ce43b795526a6568b87078081",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"964f1b4d87e2b19989516ba7f46d8965\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+    "status": "uploaded_and_verified"
+  },
+  {
+    "local_path": "sources/07-the-ninth-platform.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T083844Z-native/07-the-ninth-platform.mp4",
+    "bytes": 67461417,
+    "sha256": "224d661c59bbb51e383135cdea61762269834371b1bca492b31582e1b793839f",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"54cc3d0632b9a54710aa03a85e94a36a\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+    "status": "uploaded_and_verified"
+  },
+  {
+    "local_path": "sources/08-the-glass-tide.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T083844Z-native/08-the-glass-tide.mp4",
+    "bytes": 80077025,
+    "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"f6def0dd5cfe1a8baf2e784610fb93f2\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+    "status": "uploaded_and_verified"
+  }
+]

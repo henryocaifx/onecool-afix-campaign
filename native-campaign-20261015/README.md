@@ -20,3 +20,5 @@ python native-campaign-20261015/scripts/verify_native.py
 ```
 
 Do not delete or reset submission ledgers to force a retry. Signed transfer URLs and credentials are excluded from commits. The original four-film campaign and its download service are preserved.
+
+All four native MP4s are uploaded and readback verified in R2. See `manifest.json` and `docs/verification-report.md`; local signed links are in ignored `deliverables-manifest.json`. The laundrette includes a brief native logo-only closing shot, preserved without editing.

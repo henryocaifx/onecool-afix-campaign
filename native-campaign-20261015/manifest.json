@@ -1,0 +1,532 @@
+{
+  "campaign": {
+    "campaign_name": "ONECOOL AIFX \u2014 Four New Worlds",
+    "campaign_id": "20261015T083844Z-native",
+    "r2_prefix": "campaigns/20261015T083844Z-native/",
+    "bucket": "aifx-studio-campaign",
+    "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
+    "status": "delivered_and_verified",
+    "delivery_mode": "Native Seedance output; no transcoding, retiming or post-editing",
+    "requested_duration_seconds": 30,
+    "requested_resolution": "1080p",
+    "requested_ratio": "21:9"
+  },
+  "status": "delivered_and_verified",
+  "films": [
+    {
+      "film_id": "05-the-rooftop-cinema",
+      "title": "The Rooftop Cinema",
+      "format": "storytelling short",
+      "file": "sources/05-the-rooftop-cinema.mp4",
+      "poster": "posters/05-the-rooftop-cinema.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015164505-mrjcf",
+        "prompt": "Create a COMPLETE 30-second original live-action magical storytelling short with HUMAN characters, a clear setup, complication, clever creative decision, and warm satisfying resolution. @Image1 establishes the rooftop, wardrobe, equipment and lighting. The protagonist is an original fictional adult East Asian woman projectionist about 30, short dark bob under a RED BEANIE, CREAM utility jacket and TEAL trousers. Generate her expressive human face natively and keep her appearance and wardrobe consistent across all shots. All people are human adults; NO ANIMALS, animal characters or creatures. Intimate human emotion with an enormous cinematic city payoff, violet dusk and amber apartment windows, realistic practical production design, 35mm anamorphic photography. @Image2 is the authentic golden ONE COOL / AIFX logo. Reproduce that exact mark, unchanged, physically printed on the BLACK FILM EQUIPMENT CASE beside her projector. Give that physical case a naturally readable medium-close glimpse around 4 seconds; no floating branding, no graphic overlays. Timeline: 0-3s immediate hook, a huge white bedsheet cinema screen balloons off the rooftop like a sail, projectionist leaps and catches one corner, camera swings with the gust. 3-8s medium and over-shoulder: empty folding chairs, old projector and logo-marked equipment case establish her lonely rooftop film night. She bravely tries to stretch the sheet back up, hopeful but alone. 8-14s a second gust tears the screen free, the beautiful white fabric sails away between buildings; she looks crushed. Quick close-up of a single empty chair, then she notices neighboring apartment windows glowing around her. 14-20s she has a creative idea: turns the projector toward the whole apartment block, adjusts its angle, and vibrant moving abstract film light spills across window after window. No words, no interface, no readable text in the projected images. Neighbors notice, open windows and join the beautiful shared play of light, human silhouettes dancing and laughing. Camera tracks from her hopeful eyes into the building. 20-27s magnificent rising crane: the entire apartment courtyard becomes a living open-air cinema of color and human stories, dozens of warmly lit windows and rooftops connect, neighbors arrive on her roof carrying their own chairs, she beams at the suddenly full audience. Enormous but emotionally intimate payoff, realistic original faces, playful surprise. 27-30s comic warm resolution: a late elderly HUMAN neighbor arrives carrying one folding chair, sees every spot full, shrugs and unfolds it triumphantly on a safe little raised step. Projectionist laughs and shifts over to make room; camera gently reveals the happy crowd and the golden logo on the physical case in the foreground. Story fully resolves, all shots keep moving to the last frame. ORIGINAL synchronized sound and music: initial wind snap and cloth whoosh, hopeful original felt-piano and soft plucked strings, a brief quiet disappointment, warm original orchestral/hand-percussion swell as windows light up, footsteps, chair clacks and natural human laughter; satisfying gentle final cadence. No narrator, no spoken words, no lyrics, no existing melodies. Absolutely NO title card, subtitles, captions, text boxes, numbers, credits, readable signs or end slate. The only readable lettering anywhere is the exact authentic in-scene equipment-case logo from @Image2. No cartoon animals, no fantasy creatures, no static slideshow. A complete immersive human short film in 21:9.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 505151
+        },
+        "references": [
+          {
+            "path": "assets/references/05-rooftop-cinema.png",
+            "sha256": "d38527e95804964fcf47b1ac1e37310f7c69d3db4ec5afdf11e05021e48ad0cd",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          },
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "05-the-rooftop-cinema",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "56df80d6bd44a1cfc72c53a2ce23adc18ad1a10f815d6da3c39641b1c38aa6ff",
+        "bytes": 62839943,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-24.87",
+          "input_tp": "-2.45",
+          "input_lra": "13.20",
+          "input_thresh": "-36.04",
+          "output_i": "-18.65",
+          "output_tp": "-1.50",
+          "output_lra": "7.40",
+          "output_thresh": "-29.15",
+          "normalization_type": "dynamic",
+          "target_offset": "2.65"
+        }
+      },
+      "r2": {
+        "local_path": "sources/05-the-rooftop-cinema.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T083844Z-native/05-the-rooftop-cinema.mp4",
+        "bytes": 62839943,
+        "sha256": "56df80d6bd44a1cfc72c53a2ce23adc18ad1a10f815d6da3c39641b1c38aa6ff",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"8f622958e0bff748782305850a697530\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "06-the-gravity-laundrette",
+      "title": "The Gravity Laundrette",
+      "format": "storytelling short",
+      "file": "sources/06-the-gravity-laundrette.mp4",
+      "poster": "posters/06-the-gravity-laundrette.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015164608-067r7",
+        "prompt": "Create a COMPLETE 30-second original live-action surreal PHYSICAL-COMEDY short with HUMAN people, clear setup, escalating complication and a clever satisfying solution plus a visual joke payoff. Use @Image1 for exact mint-and-coral laundrette art direction and wardrobe. Lead: original fictional adult South Asian male laundrette attendant about 30, curly dark hair, TEAL coveralls and a burnt-ORANGE apron. Generate his expressive human face natively and preserve it across every shot. Supporting customers are original human adults. NO animals, anthropomorphic animals, toys with faces or creatures. High-end realistic cinematic comedy, saturated mint, coral and chrome, warm morning light, 28mm/40mm lenses, motivated camera movement, superb human acting. @Image2 is the actual golden ONE COOL / AIFX logo: copy the exact mark onto a plain black film-production equipment case on the folding counter; it must look physically printed, naturally visible in a clean medium shot, never a floating caption or added overlay. Timeline: 0-3s instant hook close-up, attendant's fresh coffee pours UP out of the cup and hangs above his head; he slowly looks up, aghast. 3-8s the dryer door pops open and a single sock drifts upward; he reaches for it, one shoe starts lifting, quick reaction shot establishes gravity going wrong. Logo case naturally visible on counter behind him. 8-14s controlled comic escalation: sheets, shirts and colorful socks orbit the room; two adult customers clutch the counter while a white sheet sails over the attendant like a tiny parachute. Tracking shot follows him gliding across the floor on a wheeled laundry basket, no dangerous injury, clear readable choreography. 14-20s he spots a long clothesline, grins and makes a clever choice: loops and clips the floating laundry into one smooth spiraling line, leading it around the spinning dryer like a graceful ribbon. He uses the room's strange gravity instead of fighting it. One deliberate lever movement makes the spiraling clothes pass neatly through his hands. 20-27s triumphant visual payoff: gravity settles, the clothes float DOWN in beautiful geometric order and land PERFECTLY FOLDED on the counter; a last white sheet folds itself like an elegant stage curtain. Wide dolly-back reveals a pristine shop and delighted human customers; attendant takes a small bow. 27-30s comic sting with clear payoff: the original missing sock lands gently in his outstretched hand; he smiles without looking, then notices his other shoe drifting up toward the ceiling. Deadpan look up, one tiny helpless shrug, cut on the joke with moving footage, no title. Original synchronized audio: fresh plucked double bass and brushed drums, playful woodwind accents, coffee glug rising into a whistle, dryer clicks, cloth flaps, squeaky basket wheels, one short music pause for the floating shoe, satisfying original jazz-comedy button. No dialogue, no narrator, no lyrics, no existing tune. Absolutely no title, subtitle, caption, text box, numbers, readable machine labels, credits, typography or end slate. Only the authentic physical ONE COOL / AIFX logo from @Image2 may contain readable lettering. Keep all people and limbs coherent, continuity strong, comedy clean and genuinely human. Cinematic 21:9, complete story, fully moving footage.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 606151
+        },
+        "references": [
+          {
+            "path": "assets/references/06-gravity-laundrette.png",
+            "sha256": "e320e344c8ac026ffbdc3b1fa5166b2ab3e93d4f8b7c4a8939886e3c36c8694f",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          },
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "06-the-gravity-laundrette",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "a78dc84dc0dee99fda822df58c30d1480cbd4d8ce43b795526a6568b87078081",
+        "bytes": 66097883,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-22.18",
+          "input_tp": "-2.70",
+          "input_lra": "7.10",
+          "input_thresh": "-32.83",
+          "output_i": "-16.16",
+          "output_tp": "-1.50",
+          "output_lra": "5.50",
+          "output_thresh": "-26.48",
+          "normalization_type": "dynamic",
+          "target_offset": "0.16"
+        }
+      },
+      "r2": {
+        "local_path": "sources/06-the-gravity-laundrette.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T083844Z-native/06-the-gravity-laundrette.mp4",
+        "bytes": 66097883,
+        "sha256": "a78dc84dc0dee99fda822df58c30d1480cbd4d8ce43b795526a6568b87078081",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"964f1b4d87e2b19989516ba7f46d8965\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "07-the-ninth-platform",
+      "title": "The Ninth Platform",
+      "format": "movie trailer",
+      "file": "sources/07-the-ninth-platform.mp4",
+      "poster": "posters/07-the-ninth-platform.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015164636-r7ayx",
+        "prompt": "Create a thrilling original 30-second HOLLYWOOD-STYLE SCIENCE-FI MOVIE TRAILER with HUMAN characters, immediate mystery, emotional stakes, escalating purposeful montage and one breathtaking climax tease. This is a new original story about a rail engineer crossing impossible gravity, no heist and no imagination-disappearing premise. @Image1 establishes the immense indigo-and-brass station and wardrobe. Hero is original fictional adult Black female rail engineer about 35, cropped natural dark hair, SLATE-BLUE engineering coat with YELLOW reflective trim, practical boots and compact black-brass equipment case. Generate her human face natively, expressive, ordinary and believable, maintain identity across shots. Supporting stranded passenger is an original adult human man in a simple sand-colored coat. No animals, animal people or creatures. Realistic epic live-action cinematography, tactile metal, wet stone, amber light cutting indigo mist, anamorphic lenses, emotional close-ups and enormous architecture. @Image2 is the authentic gold ONE COOL / AIFX mark: reproduce it exactly as physical printing on her equipment case. Brief readable case detail in the early character shot, never as title or overlay. Timeline: 0-3s unforgettable hook, a coffee droplet rises from the platform, hero looks up and an entire luminous TRAIN arrives on tracks attached to the CEILING above her. Rapid low tilt reveals impossible scale. 3-8s premise and stakes: on the far side of a vast station gap, a stranded human passenger reaches toward her from a closing carriage door. The rails between them begin folding away into darkness; she grips her practical tools and chooses to act. Close-ups of their hands and determined eyes, the authentic logo visible on the real equipment case as she sets it down. 8-14s accelerating montage: hero sprints along a platform that turns vertical; a corridor rolls around her while she stays upright; luminous trains glide between enormous mirrored city halves, clear geography and consistent human face. Original physical action, no abstract slideshow. 14-20s she reaches a brass rail switch as the last connecting bridge retracts, draws a decisive curved route on dusty metal with chalk without letters, and throws the manual lever. The switch resists; she braces, pushes with all her strength and finally locks it into place. Dramatic half-second silence before the mechanism catches. 20-27s massive HERO SHOT: a full-size train arcs out of the station across a newly unfolding ribbon of track suspended between TWO FOLDED CITY SKYLINES, hundreds of buildings curving toward each other like a giant architectural ring; hero tiny on the front step, wind whipping her coat, camera sweeps from close human determination to an astonishing ultrawide. The rescued route is possible but the adventure remains dangerous. 27-30s climax tease: she reaches toward the stranded passenger as the two train doors align across a narrow gap, fingertips almost touch, then a final sweeping shot plunges with the trains into the glowing city ring. End on exhilarating motion and unresolved adventure, NO title reveal or end card. Original synchronized audio: near-silent opening, deep rail horn, rising metallic pulse, strong original orchestral/synth action rhythm, footsteps and rail impacts, one breath of silence at the lever, enormous brass/drum climax and rushing-air tail. No narrator, no spoken words, no lyrics, no existing melodies. No titles, subtitles, captions, text boxes, credits, numbers, readable station signage or UI. The authentic physically printed ONE COOL / AIFX mark is the ONLY readable lettering. No animals. Cinematic 21:9 with sophisticated pacing and clear human stakes.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 707151
+        },
+        "references": [
+          {
+            "path": "assets/references/07-ninth-platform.png",
+            "sha256": "e05997fe81b295453a43411d6f720951251bc01f71b59e90d6435a12c0a83fd1",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          },
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "07-the-ninth-platform",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "224d661c59bbb51e383135cdea61762269834371b1bca492b31582e1b793839f",
+        "bytes": 67461417,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-21.27",
+          "input_tp": "-2.73",
+          "input_lra": "6.80",
+          "input_thresh": "-31.44",
+          "output_i": "-15.67",
+          "output_tp": "-1.50",
+          "output_lra": "3.70",
+          "output_thresh": "-25.71",
+          "normalization_type": "dynamic",
+          "target_offset": "-0.33"
+        }
+      },
+      "r2": {
+        "local_path": "sources/07-the-ninth-platform.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T083844Z-native/07-the-ninth-platform.mp4",
+        "bytes": 67461417,
+        "sha256": "224d661c59bbb51e383135cdea61762269834371b1bca492b31582e1b793839f",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"54cc3d0632b9a54710aa03a85e94a36a\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "08-the-glass-tide",
+      "title": "The Glass Tide",
+      "format": "movie trailer",
+      "file": "sources/08-the-glass-tide.mp4",
+      "poster": "posters/08-the-glass-tide.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015164706-0cmfr",
+        "prompt": "Create a spectacular original 30-second HOLLYWOOD-STYLE MARITIME ACTION-FANTASY TRAILER with HUMAN characters, a startling premise, urgent rescue stakes, purposeful escalating montage, one breathtaking hero wide and a final cliffhanger. No heist, no last-spark story, no animals or creatures. @Image1 establishes the frozen-glass ocean wave, cliff city, boat and wardrobe. Hero is an original fictional adult Latina underwater cinematographer about 30, dark hair tied in a short bun, SCARLET waterproof diving suit, compact water camera, strong expressive human performance. Generate her original human face natively and keep identity stable. A stranded lighthouse keeper is an original adult human man in navy work clothes, visible inside the suspended wave. Cinematic realistic live-action, turquoise water and scarlet hero silhouette, sun through storm clouds, intricate light refraction, incredible sense of ocean scale, anamorphic lenses. @Image2 is the authentic golden ONE COOL / AIFX logo: copy that exact mark physically onto her BLACK WATERPROOF FILM CASE on the boat deck, clean readable medium-close glimpse in the early setup. No floating branding, titles or overlay. Timeline: 0-3s immediate hook, a colossal ocean wave is about to crash over the harbor, then suddenly STOPS like transparent sculpted GLASS a meter from the heroine's outstretched hand; a single suspended droplet trembles beside her eye. Hard cut to her stunned human reaction. 3-8s premise and stakes: from her small film boat she sees the lighthouse keeper stranded in a luminous liquid chamber inside the enormous frozen wave; hairline cracks race toward the city below. She puts down the logo-marked physical film case, takes the water camera and dives toward the chamber. This is a courageous human rescue, not a product interface demo. 8-14s dynamic montage: heroine swims through clear suspended water tunnels, bursts into a pocket of air, looks down through a glassy wall to the entire cliff city beneath, reaches toward the keeper on the other side of a curling curtain of water. Beautiful original compositions, no sea animals, no creatures. 14-20s cracks spread with thunderous tension; the chamber tilts, she catches the keeper's wrist and guides him toward a red rescue rope dangling from the lighthouse. A sheet of liquid glass peels away behind them; quick motivated camera moves follow human action and preserve spatial clarity. 20-27s breathtaking HERO WIDE: the whole wave unfolds into a gigantic SPIRAL WATER ARCH above the coastal city, sunlight forming luminous rings through the clear ocean, heroine and keeper tiny at its center holding the red rope as the boat races beneath. Camera rises from their desperate faces to an enormous aerial that reveals the impossible architecture of water and the real city at risk. Original visual spectacle with tangible human stakes. 27-30s unresolved climax tease: close-up, a wet hand slips on the red rope, the heroine reaches again and grips it as the entire wave begins moving; pull wide into rushing turquoise water and scarlet human courage, end on motion and suspense without resolving the whole rescue. Original synchronized sound/music: first crashing wave abruptly cuts to a tiny ringing droplet, restrained original low strings and pulse, underwater pressure and muffled breaths, sharp glass-like cracking, rising original orchestral action drums/brass, a breath before the giant water-arch reveal, huge musical climax and rushing-water tail. No speech, no narrator, no lyrics, no existing melody. Absolutely no titles, subtitles, captions, text boxes, typography, readable signs, numbers, credits or end card. The authentic in-scene equipment-case ONE COOL / AIFX mark is the only allowed readable lettering. No animals, no creatures, original human cast, cinematic 21:9.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 808151
+        },
+        "references": [
+          {
+            "path": "assets/references/08-glass-tide.png",
+            "sha256": "823d1d3003dad18e8137b1c84e48eb9bb0ba5b8f09975585601bef19dbd60719",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          },
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "08-the-glass-tide",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0",
+        "bytes": 80077025,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-20.04",
+          "input_tp": "-3.13",
+          "input_lra": "10.70",
+          "input_thresh": "-30.83",
+          "output_i": "-16.54",
+          "output_tp": "-1.50",
+          "output_lra": "6.70",
+          "output_thresh": "-26.99",
+          "normalization_type": "dynamic",
+          "target_offset": "0.54"
+        }
+      },
+      "r2": {
+        "local_path": "sources/08-the-glass-tide.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T083844Z-native/08-the-glass-tide.mp4",
+        "bytes": 80077025,
+        "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"f6def0dd5cfe1a8baf2e784610fb93f2\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+        "status": "uploaded_and_verified"
+      }
+    }
+  ],
+  "visual_review": {
+    "method": "Human visual inspection of one-frame-per-second temporal sheets and selected full-resolution frames; native video/audio full-decode checks are recorded separately.",
+    "no_post_editing": true,
+    "films": [
+      {
+        "film_id": "05-the-rooftop-cinema",
+        "status": "accepted",
+        "observations": "Coherent human projectionist, floating screen, apartment-window cinema and community payoff. Physical ONECOOL AIFX case mark visible during the later scene. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "06-the-gravity-laundrette",
+        "status": "accepted_with_native_brand_closing_shot",
+        "observations": "Human attendant and customers, upward coffee, floating laundry, folded-clothes payoff and final shoe gag. Physical logo marks and a brief native logo-only closing shot are present. The latter was generated by Seedance despite the prompt requesting in-scene branding; it is retained unchanged under the user's logo preference and direct-native-upload instruction. No narrative title, subtitles, text boxes or animals observed."
+      },
+      {
+        "film_id": "07-the-ninth-platform",
+        "status": "accepted",
+        "observations": "Human engineer, impossible railway architecture, purposeful lever action, train panorama and reaching-hands cliffhanger. Native incidental set/wardrobe lettering is imperfect at inspection scale. No title cards, subtitles, text boxes or animals observed."
+      },
+      {
+        "film_id": "08-the-glass-tide",
+        "status": "accepted",
+        "observations": "Human diver and keeper, enormous suspended wave, underwater rescue and rope cliffhanger. ONECOOL AIFX case mark visible on boat. No title cards, subtitles, text boxes or animals observed."
+      }
+    ],
+    "limitations": "Temporal sheets sample the films rather than proving every inter-frame detail. Native generative continuity and incidental branding can vary; no correction was applied."
+  },
+  "authentic_logo_source": {
+    "asset": "assets/brand/onecool-logo.png",
+    "url": "https://charsiufan.onecool.ai/onecool-logo.png",
+    "role": "Authentic ONECOOL AIFX identity supplied as a separate video reference; no post-edit logo overlay",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916"
+  },
+  "delivery": [
+    {
+      "local_path": "sources/05-the-rooftop-cinema.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T083844Z-native/05-the-rooftop-cinema.mp4",
+      "bytes": 62839943,
+      "sha256": "56df80d6bd44a1cfc72c53a2ce23adc18ad1a10f815d6da3c39641b1c38aa6ff",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"8f622958e0bff748782305850a697530\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/06-the-gravity-laundrette.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T083844Z-native/06-the-gravity-laundrette.mp4",
+      "bytes": 66097883,
+      "sha256": "a78dc84dc0dee99fda822df58c30d1480cbd4d8ce43b795526a6568b87078081",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"964f1b4d87e2b19989516ba7f46d8965\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/07-the-ninth-platform.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T083844Z-native/07-the-ninth-platform.mp4",
+      "bytes": 67461417,
+      "sha256": "224d661c59bbb51e383135cdea61762269834371b1bca492b31582e1b793839f",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"54cc3d0632b9a54710aa03a85e94a36a\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/08-the-glass-tide.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T083844Z-native/08-the-glass-tide.mp4",
+      "bytes": 80077025,
+      "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"f6def0dd5cfe1a8baf2e784610fb93f2\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:00:26.000Z",
+      "status": "uploaded_and_verified"
+    }
+  ],
+  "estimated_generation_list_price_usd": 68.766608,
+  "actual_invoice_cost_usd": null,
+  "native_delivery": "Provider MP4 bytes uploaded unchanged; no transcoding, trimming, retiming, scaling, graphics or audio edits. Requested 30 seconds at nominal 1080p/21:9; exact native duration/codec/dimensions are retained.",
+  "original_campaign_preserved": true
+}
