@@ -15,7 +15,7 @@ Data-plane base URL: `https://ark.ap-southeast.bytepluses.com/api/v3`. Submit `P
 
 Current documentation supports 4–30-second generation, 480p/720p/1080p outputs, 21:9, synchronized generated audio, and omni reference images. A single request can carry up to 30 images, with a combined omni-asset limit of 50. Images may be supplied as HTTPS URLs, supported asset IDs, or base64 data URLs; request body limit 64 MB, single image under 30 MB, width/height 300–6000, aspect ratio 0.4–2.5. Use one clean reference image per film, submitted in a documented base64 data URL as `image_url` with `role: reference_image`. No contact sheets are sent to the API.
 
-1080p at 21:9 is documented as **2206 × 946**, not 2520 × 1080. Finishing will scale with Lanczos and perform the minimal centered crop needed for exact 7:3 output; record actual source dimensions. Generated 1080p MP4 uses HEVC; finals will be re-encoded to H.264 yuv420p for broad playback support. Generated audio is mono; finishing will create an AAC stereo mix and document the mono source.
+1080p at 21:9 is documented as **2206 × 946**, not 2520 × 1080. Finishing will scale with Lanczos and perform the minimal centered crop needed for exact 7:3 output; record actual source dimensions. Generated 1080p MP4 uses HEVC; finals will be re-encoded to H.264 yuv420p for broad playback support. The documentation describes generated audio as mono. The received files actually contain two AAC channels with measurable left/right differences; finishing preserves both channels and adds the original stereo campaign signature.
 
 Published online list price for 1080p generation without input video: **USD 11.70 per million output tokens**. Retain returned usage and calculate a list-price estimate. This is not an actual invoice, and account discounts/resource-pack offsets may differ. Failed preflight is not a generation charge. Do not invent unavailable actual billing information.
 
@@ -34,3 +34,7 @@ Generation submission is sequential and recorded immediately. Re-running a comma
 ## Acceptance checks
 
 Inspect representative/full-resolution frames, the complete temporal sequence, and audio. Check script structure and memorable character beats. Probe each final with ffprobe, decode all frames/audio, measure loudness/peaks, and verify exact frame count. For R2: preserve object keys, MIME type, byte count, SHA-256, download/playback probe, and URL expiration when applicable. A missing check is recorded as incomplete rather than passed.
+
+## Delivery update
+
+The user explicitly requested bucket creation after the initial access check. `aifx-studio-campaign` was created in the connected Cloudflare account in APAC at 2026-10-15T08:04:05.220Z. Its public r2.dev access remains disabled and no custom domain is attached. The connection can manage Workers but cannot create Account Owned API Tokens (9109). To transfer local files without exposing or requesting root credentials, the delivery uses an R2-bound Worker with HMAC signatures scoped to an exact object allowlist, expiring upload authorization, SHA-256 checked by R2, overwrite prevention, and expiring signed download URLs. This is a documented alternative to S3 presigned URLs; bucket contents and access configuration remain private.

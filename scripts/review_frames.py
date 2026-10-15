@@ -27,7 +27,5 @@ for film in json.loads((ROOT/"records/films.json").read_text()):
     for sec in ([1,4,10,14,19,22,25,28] if a.final else [1,4,10,14,19,22,25]):
         run(["-ss",str(sec),"-i",str(path),"-frames:v","1",str(ROOT/"review"/f"{fid}-{tag}-{sec:02}.png")])
     if a.final:
-        title=ROOT/"tmp"/(fid+"-poster-title.txt"); title.write_text(film["title"])
-        filters=f"drawbox=x=0:y=805:w=iw:h=275:color=black@0.65:t=fill,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:textfile='{title}':fontsize=100:fontcolor=white:x=105:y=850,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='AIFX STUDIO  /  ORIGINAL WORLDS':fontsize=27:fontcolor=0xddd6ee:x=110:y=1000"
-        run(["-ss","21.5","-i",str(path),"-vf",filters,"-frames:v","1",str(ROOT/"posters"/(fid+".png"))])
+        run(["-ss","23.5","-i",str(path),"-frames:v","1",str(ROOT/"posters"/(fid+".png"))])
     print(fid,tag,"review assets extracted",flush=True)

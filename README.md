@@ -2,6 +2,8 @@
 
 Production workspace for four original 30-second campaign films, commissioned in the attached brief. Work in progress; no film is claimed delivered until its technical and R2 checks pass.
 
+**Latest direction:** Final videos are clean cinematic masters with no added title, subtitle, text box, UI overlay, logo, or text end card. This supersedes the original campaign end-card requirement. The complete 27-second narrative source is retimed to exactly 30 seconds, with synchronized pitch-preserving audio adjustment. See `docs/editing-clean.md` for the final edit; earlier branding materials are retained only as development history.
+
 | Film | Format | Creative identity |
 | --- | --- | --- |
 | 01 — The Little Idea That Escaped | Storytelling short | Handmade amber-and-teal adventure |
