@@ -1,0 +1,38 @@
+{
+  "film_id": "04-the-imagination-heist",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T07:55:26Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a charismatic, mischievous, ORIGINAL 27-second HOLLYWOOD BLOCKBUSTER HEIST TRAILER with inventive action, original memorable crew, exciting scale and an outrageous comic sting. Use @Image1 as exact crew and environment reference. Vex: slender TEAL GECKO in burgundy velvet coat, brass lockpick. Nix: SILVER MOTH with elegant large silver wings and violet aviator scarf. Brick: squat COPPER WIND-UP TOASTER with little sturdy legs, happy lever-face and two toast slices. Keep identities stable and clearly distinct. Sophisticated glossy cinematic 3D animation, noir shadows, magenta/cyan neon, Escher-like vault architecture between galaxies. Timeline: 0-3s immediate macro hook, Vex slips a lockpick into a vault lock; it opens into a whole miniature GALAXY where the keyhole should be. Smash cut to crew sharing a mischievous grin. 3-7s three quick memorable personality shots: gecko confidently spins lockpick, moth maps stars with silver wing dust, toaster pops two slices like a proud salute. Snap pans land on expressive faces. 7-11s overhead crew plots the mission using unbranded glowing blank storyboard panels on a table; map lines match-cut into a long vault corridor. They aim to steal one tiny glowing iridescent idea sphere on a pedestal. No readable UI, maps are fantasy set props. 11-17s accelerating action montage: silver moth threads through slow falling laser rain; gecko runs upside down along corridor ceiling then swings back to floor; toaster pops ONE toast slice that deflects a beam into a mirror to open the final door, camera follows spinning slice into next cut. Make every obstacle and solution clear and playful. 17-23s crew reaches pedestal, gecko gently lifts tiny sphere. Suddenly vault walls unfold OUTWARD into a gigantic living theater between galaxies, crew tiny in a gorgeous enormous cosmic wide. Sweeping dolly back reveals impossible balconies, glowing constellations and orchestra-shaped nebulae. 23-27s outrageous comic sting close-up: inside the tiny sphere is a microscopic SNAIL CONDUCTOR wearing tiny tails, taps a minuscule baton; the ENTIRE galaxy orchestra blasts ONE ridiculously huge note. Toaster stares wide-eyed and drops its toast with a clatter. End on this joke and a confident three-character hero pose; maintain moving clean composition for editorial title. Original synchronized soundtrack: cool plucked bass and brushed drums, syncopated funk brass for crew intro, lock click into vacuum whoosh, laser zips and wing shimmer, toaster spring pings, accelerate with cinematic drums then full original blockbuster orchestral swell, absurd orchestral blat and toast clatter followed by half-second of comic silence and short funk button. No words, no narration, no lyrics, no existing melodies. No titles, logos, text, watermarks, subtitles or fake app controls. Make it visually epic and genuinely funny, fully animated multi-shot trailer, not a slideshow. 21:9 cinematic framing.",
+  "reference": {
+    "path": "assets/references/04-heist-crew.png",
+    "sha256": "5d913650adcf0b3a05b06239209e17605759a2d592eae64b99cc9a1efed6ffae",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "settings": {
+    "duration": 27,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 40421
+  },
+  "job_id": "cgt-20261015155550-yd1zz",
+  "result": {
+    "id": "cgt-20261015155550-yd1zz",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792050951,
+    "updated_at": 1792050951,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

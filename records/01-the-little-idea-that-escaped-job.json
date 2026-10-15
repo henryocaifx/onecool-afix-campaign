@@ -1,0 +1,38 @@
+{
+  "film_id": "01-the-little-idea-that-escaped",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T07:53:56Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a COMPLETE 27-second original animated short with multiple cinematic shots, a clear setup, playful complication, and emotionally enormous resolution. Use @Image1 as the precise character, wardrobe, prop and art direction reference. Wren is the adult copper fox in an indigo work shirt; Pip is the tiny ivory origami manta ray with a glowing amber heart. Maintain both designs and proportions throughout. Tactile handcrafted miniature animation, amber desk lamps against teal dusk, gorgeous folded-paper landscapes, expressive acting, motivated camera movement. Start immediately with an unexpected action in the first second. Timeline: 0-3s macro shot, a crumpled paper scrap unfolds into Pip on Wren's walnut desk, snatches a brass pencil and darts away; rack focus to Wren's startled delighted eyes. 3-6s over-shoulder, Wren follows Pip through a luminous rectangular blank storyboard panel, match-cut into the paper world. This panel is a fictional magical set prop, no readable interface. 6-11s tracking wide, Wren chases Pip across unfolding stepping stones in a spectacular teal paper valley under a giant paper moon, keep characters clearly readable. 11-16s low medium shot, a giant charming origami frog blocks a narrow bridge. Wren draws a tiny glowing fly with the pencil; frog follows the fly and leaps away, revealing the path. Pause half a second for the joke, then pan with the leap. 16-23s Pip unfolds into an immense luminous paper sky-manta; Wren joyfully grips its fin and rides over an enormous city of lantern trees. Rising crane into an unforgettable huge cinematic wide with both characters in silhouette and paper mountains beyond. 23-27s warm match-cut back to the desk, Wren watches the same beautiful imagined world glowing in an unbranded blank display, then Pip lands beside the pencil; Wren gives Pip an affectionate nod. Complete the story and keep beautiful moving imagery through 27 seconds. ORIGINAL synchronized music and effects: celesta and pizzicato strings at first, paper snaps and soft footfalls, comical bassoon and frog boing, then a generous original orchestral swell for the sky-manta reveal and warm final cadence. No lyrics, no spoken dialogue, no narrator, no recognizable existing melody. No titles, no logos, no letters, no watermarks, no subtitles, no fake app UI. Editorial branding will be added later. Fully animated footage, never a static slideshow. Exactly the original reference characters, no humans. 21:9 cinematic composition.",
+  "reference": {
+    "path": "assets/references/01-wren-pip.png",
+    "sha256": "757f7c5cfd070d73b8b60a87dc5ce24377073aee97b3b81dd2211e2ca2923300",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "settings": {
+    "duration": 27,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 10421
+  },
+  "job_id": "cgt-20261015155416-ol9u1",
+  "result": {
+    "id": "cgt-20261015155416-ol9u1",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792050856,
+    "updated_at": 1792050856,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

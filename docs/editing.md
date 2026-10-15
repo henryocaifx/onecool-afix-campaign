@@ -1,0 +1,14 @@
+# Reproduce the campaign edit
+
+1. Install Python dependencies in an isolated environment. FFmpeg 7.x and the DejaVu Sans fonts are used. The current managed runtime stores SDK dependencies outside Git in `/workspace/aifx-campaign/vendor`.
+2. Keep the four visual references in `assets/references/` and unaltered real-site screenshots in `assets/captures/`. `cast.png`, `cine.png`, and `movi2.png` show sign-in and are access evidence only. Only `home.png` is used in the edit.
+3. `python scripts/byteplus_jobs.py submit` submits each film once. Existing ledger files suppress new submissions, including ambiguous submission failures. Resolve such failures manually by checking task history; do not delete ledgers to retry blindly.
+4. `python scripts/byteplus_jobs.py poll` resumes polling and downloads completed source videos. Run at sensible intervals. It does not submit new jobs. Provider result URLs expire, so download accepted footage promptly.
+5. Review source footage before accepting it. A reference is not a final film. Source media stays in `sources/<film-id>.mp4` and is intentionally excluded from ordinary Git objects.
+6. `python scripts/make_graphics.py` creates exact-resolution campaign end cards, transparent typography/product layers, trailer titles, and original stereo sonic signatures. The final UI is the unaltered public-site capture, cropped and scaled by FFmpeg to fit an editorial panel; no application controls or results are invented.
+7. `python scripts/finish.py --film <film-id>` scales with Lanczos to cover the exact 2520 × 1080 canvas and applies the minimal centered crop. Original source aspect ratios and exact processing are retained in each technical record. It normalizes all videos to 24 fps and 720 frames.
+8. Source visuals run 0–27 seconds. A small product identification appears at 3–5.5; a lower product panel with a real public-page capture appears 24.25–27. Trailer title graphics appear 23.15–25.65. The clean closing card occupies 27–30, with no transition shortening its readable time. The source audio fades at 26.35–27, and an original three-note stereo motif bridges into the card at 26.7 seconds. Final mix is normalized toward −16 LUFS and −1.5 dBTP, then encoded to AAC stereo at 48 kHz.
+9. Inspect every export, decode it fully, and run `python scripts/verify.py`. Do not claim checks passed until the recorded outputs establish them. Record any source/script deviations in the verification report.
+10. Upload only to the requested R2 destination, under the campaign's unique prefix, without replacing existing objects. Record integrity checks, playable download URLs, and URL expiration. Upload credentials must be supplied securely by the environment, never in this repository.
+
+Accepted media, posters, reference assets, scripts, job/usage records, and delivery manifests form the handoff. The exact FFmpeg argument vector for each film is retained in `records/*-edit-command.json`.

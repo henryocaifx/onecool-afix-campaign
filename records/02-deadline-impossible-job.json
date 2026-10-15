@@ -1,0 +1,38 @@
+{
+  "film_id": "02-deadline-impossible",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T07:54:37Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a COMPLETE 27-second original funny cinematic animated short with a clear beginning, escalating problem, clever creative decision and satisfying visual joke payoff. Use @Image1 for exact recurring characters and art direction: Rue is adult slate raccoon with round RED glasses, MUSTARD jumpsuit and TEAL collar; tiny lime dragon has little round wings; yellow RUBBER DUCK producer wears black headphones and stays duck-sized. Same designs throughout. High-end crisp 3D animation, coral/cobalt/chartreuse production studio, exaggerated expressive acting, fast motivated camera moves with readable action. Timeline: 0-3s immediate crash zoom, enormous overhead hourglass releases its final shower of sand onto Rue's desk, Rue catches the falling tiny dragon in a teacup while duck glares. No readable numbers. 3-7s Rue looks from a blank glowing work display to unfinished storyboard paper frames, tries to arrange them while duck impatiently taps a flipper; sideways tracking reveals the room turning into an enormous production set. 7-12s cobalt ocean washes in from left, coral cardboard desert rises on right, Rue balances between them on a rolling chair; dragon sneezes colorful confetti instead of fire, Rue startled. Quick pan with the chair then reaction close-up. 12-17s Rue tries to sweep the confetti away but dragon sneezes a MOUNTAIN of it, burying the stern duck except its headphones. Rue freezes and looks at the camera in embarrassed silence. Hold this comic beat briefly, keep duck physically small. 17-23s Rue suddenly GRINS and makes a creative decision: raises a desk lamp like a spotlight and frames the mess as a stunning confetti parade. Ocean paper fish and miniature desert creatures dance together with dragon through swirling confetti. Camera rises to reveal a beautiful coherent cinematic composition and Rue proudly directing it. 23-27s close comic payoff: duck slowly emerges from confetti with a fabulous confetti crown, keeps deadpan serious face, gives ONE solemn squeak of approval. Rue bursts into a relieved laugh, dragon sneezes one last tiny confetti puff. Finish the complete story with a strong musical button. Original synchronized audio: fast breakbeat, plucked bass and punchy brass; alarm chirp, sand rush, chair roll, teacup clink, dragon sneezes and confetti pops, impatient rubber squeaks. Drop music to one rimshot for buried duck then joyous brass groove for the creative triumph, one final duck squeak. NO words, no dialogue, no narrator, no lyrics, no existing melodies. No titles, logos, letters, numerals, watermarks, fake app UI or subtitles. Blank screens only. Fully animated with cinematic shot changes, not a static picture. Keep all main action in 21:9 safe frame.",
+  "reference": {
+    "path": "assets/references/02-rue-deadline.png",
+    "sha256": "4505e87dec20dd757e371f9bdc3ea73ad81419b6402010ac9b7def7cd87d0443",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "settings": {
+    "duration": 27,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 20421
+  },
+  "job_id": "cgt-20261015155501-bxmvg",
+  "result": {
+    "id": "cgt-20261015155501-bxmvg",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792050901,
+    "updated_at": 1792050901,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "film_id": "03-the-last-spark",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T07:55:01Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a breathtaking original 27-second HOLLYWOOD-SCALE SCIENCE-FANTASY MOVIE TRAILER. Multiple carefully paced cinematic shots: mysterious opening, emotional stakes, increasing transformations, huge hero shot and climax tease. Use @Image1 as exact design reference for Luma: small weathered ivory ceramic maintenance robot, ONE round amber eye, short dark NAVY scarf, battered lunch tin; maintain design and scale across shots. Photoreal miniature robot and monumental brutalist city textures in rain. Begin almost monochrome; amber spark triggers cyan and vivid living color. Timeline: 0-3s extreme close shot of last small amber spark flickering inside open battered lunch tin, sudden vast moving shadow crosses gray city, cut to Luma's amber eye reacting. Establish hook immediately. 3-7s very wide lonely Luma in enormous blank gray city, countless dark windows and lifeless robot silhouettes; a curtain of ash approaches. Close-up Luma protectively cups the spark, emotional stakes that this tiny light may vanish. 7-11s Luma decides to create: draws ONE curved line in luminous dust over an unbranded blank rectangular panel, the line becomes an elegant glowing storyboard-like silhouette; spark brightens. This is a fantasy metaphor, never a readable interface. Slow push turns into motion. 11-17s accelerating purposeful montage with clear cuts: one barren tree erupts in turquoise leaves; rivers of color race UP monumental towers; gray streets fold into enormous floating islands while Luma runs forward with the lunch tin, scarf streaming. Use original imaginative imagery, maintain geography and robot design. 17-23s breathtaking HERO SHOT: Luma stands tiny on a floating rooftop while a colossal luminous origami SKY-WHALE unfolds above the ENTIRE horizon, fins bigger than towers, color waterfalls fall into clouds. Camera cranes upward and pulls wide, immense sense of scale, hold the wonder for a full two seconds, realistic cinematic light and atmosphere. 23-27s quieter emotional close, Luma's eye reflects the colorful whale and spark now burns steadily; pull back to the immense transformed world with clean moving dark negative space for an editorial title to be added later. DO NOT resolve the whole adventure; tease the world to explore. Original synchronized soundtrack: opening near-silence, distant low horn and one piano note, wind and rain, heartbeat-like drums build through transformations, enormous original orchestral/wordless choral climax at whale reveal, brief breath and bass impact, shimmering warm piano tail. No existing melody or lyrics, no spoken dialogue or voiceover. No readable text, no titles, no logos, no watermarks, no subtitles, no fake app controls. Cinematic montage with deliberate changes of pace, not a still image. 21:9 epic widescreen.",
+  "reference": {
+    "path": "assets/references/03-luma-spark.png",
+    "sha256": "c583fc58add2db9bd42352bb6d8bac32ed5bce3fcc5a062918a10d06db7312d0",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "settings": {
+    "duration": 27,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 30421
+  },
+  "job_id": "cgt-20261015155525-fqrey",
+  "result": {
+    "id": "cgt-20261015155525-fqrey",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792050926,
+    "updated_at": 1792050926,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}
