@@ -4,6 +4,8 @@ All times are seconds from the final film start. Each timeline totals exactly 30
 
 Campaign identity: dark end card, white AIFX wordmark text, magenta/violet/cyan Studio treatment, a short film-specific invitation, `AI-powered filmmaking`, and `charsiufan.onecool.ai`. End card remains fully legible 27–30. No narration is needed; sparse dialogue may be subtitled in editing if generated clearly.
 
+**Capture access amendment:** Cast, Cine, and Movi2 require sign-in. All planned workspace/editor insets below are therefore replaced by a real **public home-page capture**, showing AIFX Studio's identity and published tool cards. No editor UI, generated results, or success states are fabricated. Generated storyboards and luminous panels are clearly fictional set props rather than app interfaces.
+
 ## 01 — The Little Idea That Escaped
 
 **Message:** A modest idea deserves a world. **Creator:** Wren, a small adult anthropomorphic copper fox, cream muzzle, indigo work shirt, rolled sleeves, brass pencil behind one ear. **Idea:** Pip, a palm-size folded ivory-paper manta with an amber heart. **Look:** tactile miniature-film animation, amber desk light, teal dusk, paper mountains, cinematic depth and warm character acting. **Reference:** `01-wren-pip.png`, a clean individual composition showing both characters, desk, wardrobe, and the paper valley beyond a circular window. Reuse for all narrative shots; no separate reference needed for editorial captures/cards.

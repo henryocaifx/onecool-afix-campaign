@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01-wren-pip",
+    "path": "assets/references/01-wren-pip.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "757f7c5cfd070d73b8b60a87dc5ce24377073aee97b3b81dd2211e2ca2923300",
+    "generator": "OpenAI image_gen tool",
+    "purpose": "Original character, wardrobe, important props, environment, lighting and composition reference",
+    "film_id": "01-the-little-idea-that-escaped",
+    "shots": "All generated narrative shots from 00:00 to 00:27",
+    "transport": "BytePlus documented image_url base64 data URL, role reference_image",
+    "license": "Generated original campaign asset; no third-party reference images supplied",
+    "cost_usd": null
+  },
+  {
+    "id": "02-rue-deadline",
+    "path": "assets/references/02-rue-deadline.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "4505e87dec20dd757e371f9bdc3ea73ad81419b6402010ac9b7def7cd87d0443",
+    "generator": "OpenAI image_gen tool",
+    "purpose": "Original character, wardrobe, important props, environment, lighting and composition reference",
+    "film_id": "02-deadline-impossible",
+    "shots": "All generated narrative shots from 00:00 to 00:27",
+    "transport": "BytePlus documented image_url base64 data URL, role reference_image",
+    "license": "Generated original campaign asset; no third-party reference images supplied",
+    "cost_usd": null
+  },
+  {
+    "id": "03-luma-spark",
+    "path": "assets/references/03-luma-spark.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "c583fc58add2db9bd42352bb6d8bac32ed5bce3fcc5a062918a10d06db7312d0",
+    "generator": "OpenAI image_gen tool",
+    "purpose": "Original character, wardrobe, important props, environment, lighting and composition reference",
+    "film_id": "03-the-last-spark",
+    "shots": "All generated narrative shots from 00:00 to 00:27",
+    "transport": "BytePlus documented image_url base64 data URL, role reference_image",
+    "license": "Generated original campaign asset; no third-party reference images supplied",
+    "cost_usd": null
+  },
+  {
+    "id": "04-heist-crew",
+    "path": "assets/references/04-heist-crew.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "sha256": "5d913650adcf0b3a05b06239209e17605759a2d592eae64b99cc9a1efed6ffae",
+    "generator": "OpenAI image_gen tool",
+    "purpose": "Original character, wardrobe, important props, environment, lighting and composition reference",
+    "film_id": "04-the-imagination-heist",
+    "shots": "All generated narrative shots from 00:00 to 00:27",
+    "transport": "BytePlus documented image_url base64 data URL, role reference_image",
+    "license": "Generated original campaign asset; no third-party reference images supplied",
+    "cost_usd": null
+  }
+]

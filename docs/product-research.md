@@ -4,6 +4,7 @@
 
 - Live application: https://charsiufan.onecool.ai — HTTP 200. Public UI rendered and captured from the real application. Browser requests use Playwright's API transport through the configured proxy, with its supplied CA trusted; TLS verification remains enabled.
 - Supplied repository: https://github.com/clairdelune0713/aifx-studio — authenticated connector metadata/fetch both returned 404; installed-repository search found no accessible match. Source implementation and backend behavior cannot be verified from this connection.
+- Cast, Cine, and Movi2 routes redirect to the real sign-in page. Their screenshots document that access limitation; they are not editor captures. Use only authentic public home-page imagery in the films. No login is attempted and no authenticated generation workflow is claimed verified.
 - Public page text and links are retained in `research/app-links.json`; unaltered screenshots are in `assets/captures/`.
 
 ## Positioning and audience
