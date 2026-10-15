@@ -1,0 +1,46 @@
+{
+  "film_id": "11-the-jelly-lens",
+  "status": "running",
+  "submitted_at_utc": "2026-10-15T09:16:02Z",
+  "endpoint_id": "ep-20260807143930-zwn48",
+  "foundation_model": "dreamina-seedance-2-5-260628",
+  "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Immersive tactile CGI playground. CAST: No people or creatures. The protagonist is one translucent amber cube, soft like optical jelly, with a tiny circular glass lens suspended at its center. No face, limbs or resemblance to any existing character. WORLD AND PHOTOGRAPHY: An enormous original sensory sculpture garden: matte lilac bowls, brushed copper rails, emerald glass ramps and soft peach cushions, under clear pink morning light. Sophisticated physically based CGI, tactile material transitions, satisfying elastic motion, camera skimming extremely close to surfaces. EXACT 30-SECOND STORY: 0–3s hook: the amber jelly cube drops onto a huge lilac drum-like bowl, squashes beautifully flat, then springs upward; the camera follows inside its translucent body as the world refracts around the embedded lens. 3–8s: it lands beside an open black filmmaking case bearing the supplied gold ONECOOL AIFX mark, wobbles in comic anticipation, then slides onto a gleaming copper rail leading deep into the giant sculpture garden. 8–14s: an immersive continuous chase follows it rolling, stretching and rebounding through geometric bowls and emerald glass spirals; its tiny lens captures kaleidoscopic refractions, no interface or imagery with lettering. 14–20s: the rail ends above a broad gap. The cube stretches into a long clear elastic bridge, snaps itself forward like a slingshot and lands with a delicious soft wobble on a huge peach cushion. 20–27s: a magnificent camera orbit reveals the entire sculpture garden as one enormous playful filmmaking apparatus, geometric paths spiraling into a sunlit colored-glass amphitheatre; the cube’s internal lens turns the surroundings into a gorgeous moving spectrum. 27–30s: the cube gently returns to the logo-marked equipment case, trying to settle neatly into a square foam recess. It is still slightly too round, gives one tiny comic squish and pops perfectly into place while its center lens gives a final glint. End on moving material, not a card. ORIGINAL SOUNDTRACK: An original playful electronic instrumental made from warm soft synth plucks, tuned glass taps and syncopated percussion; satisfying elastic boings, copper pings and a tiny final soft pop. No samples or recognizable melody. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3–8 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+  "reference": {
+    "path": "assets/brand/onecool-logo.png",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+    "transport": "base64 data URL",
+    "role": "reference_image"
+  },
+  "references": [
+    {
+      "path": "assets/brand/onecool-logo.png",
+      "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+      "transport": "base64 data URL",
+      "role": "reference_image"
+    }
+  ],
+  "settings": {
+    "duration": 30,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "generate_audio": true,
+    "watermark": false,
+    "output_format": "mp4",
+    "seed": 909353
+  },
+  "job_id": "cgt-20261015171603-bfoyy",
+  "result": {
+    "id": "cgt-20261015171603-bfoyy",
+    "model": "dreamina-seedance-2-5-260628",
+    "status": "running",
+    "created_at": 1792055766,
+    "updated_at": 1792055766,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4",
+    "content": {}
+  }
+}

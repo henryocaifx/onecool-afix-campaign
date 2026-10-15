@@ -1,0 +1,26 @@
+[
+  {
+    "film_id": "11-the-corridor-that-danced",
+    "job_id": "cgt-20261015170617-jtl3o",
+    "status": "failed",
+    "provider_code": "OutputVideoSensitiveContentDetected.PolicyViolation",
+    "provider_reason": "Output may be related to copyright restrictions",
+    "disposition": "No video returned; no reattempt of this concept. Replaced with a substantially different original object-led CGI story, 11-the-jelly-lens."
+  },
+  {
+    "film_id": "13-the-neon-lens-run",
+    "job_id": "cgt-20261015170621-voemq",
+    "status": "failed",
+    "provider_code": "OutputAudioSensitiveContentDetected.PolicyViolation",
+    "provider_reason": "Generated output audio may relate to copyright restrictions",
+    "disposition": "No MP4 returned. New generation requests entirely original Foley-only sound effects, with no music or melody; original failed ledger preserved in records/attempts."
+  },
+  {
+    "film_id": "18-the-midnight-light-kitchen",
+    "job_id": "cgt-20261015170627-u5pa6",
+    "status": "failed",
+    "provider_code": "OutputAudioSensitiveContentDetected.PolicyViolation",
+    "provider_reason": "Generated output audio may relate to copyright restrictions",
+    "disposition": "No MP4 returned. New generation requests entirely original Foley-only sound effects, with no music or melody; original failed ledger preserved in records/attempts."
+  }
+]

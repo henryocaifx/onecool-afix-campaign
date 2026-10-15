@@ -4,7 +4,7 @@
   "r2_prefix": "campaigns/20261015T090200Z-promo-ten/",
   "bucket": "aifx-studio-campaign",
   "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
-  "status": "ten_native_jobs_submitted",
+  "status": "seven_native_sources_downloaded_three_jobs_generating",
   "delivery_mode": "Unmodified native Seedance MP4; no transcoding or post-editing",
   "requested_duration_seconds": 30,
   "requested_resolution": "1080p",

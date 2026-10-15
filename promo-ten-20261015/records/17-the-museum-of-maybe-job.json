@@ -1,6 +1,6 @@
 {
   "film_id": "17-the-museum-of-maybe",
-  "status": "running",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T09:06:25Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -32,15 +32,37 @@
   "result": {
     "id": "cgt-20261015170626-7bzqr",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1469372,
+      "total_tokens": 1469372
+    },
     "created_at": 1792055187,
-    "updated_at": 1792055187,
+    "updated_at": 1792055607,
+    "seed": 909959,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 30,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 17.191652,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/17-the-museum-of-maybe.mp4",
+    "bytes": 42038925,
+    "sha256": "54d44561cf736f6d3ba266e811d8d7bb653cf1c820bc016ee2828c7af36f2e7a"
   }
 }

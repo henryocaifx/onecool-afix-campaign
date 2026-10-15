@@ -1,6 +1,6 @@
 {
   "film_id": "11-the-corridor-that-danced",
-  "status": "running",
+  "status": "failed",
   "submitted_at_utc": "2026-10-15T09:06:16Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -32,9 +32,13 @@
   "result": {
     "id": "cgt-20261015170617-jtl3o",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "failed",
+    "error": {
+      "code": "OutputVideoSensitiveContentDetected.PolicyViolation",
+      "message": "The request failed because the output video may be related to copyright restrictions. Request id: 02179205518812700000000000000000000ffffc0a8bb66871623"
+    },
     "created_at": 1792055177,
-    "updated_at": 1792055188,
+    "updated_at": 1792055613,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,

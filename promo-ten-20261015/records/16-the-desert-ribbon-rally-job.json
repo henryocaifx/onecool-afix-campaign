@@ -1,6 +1,6 @@
 {
   "film_id": "16-the-desert-ribbon-rally",
-  "status": "running",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T09:06:24Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -32,15 +32,37 @@
   "result": {
     "id": "cgt-20261015170624-jc5sb",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1469372,
+      "total_tokens": 1469372
+    },
     "created_at": 1792055185,
-    "updated_at": 1792055186,
+    "updated_at": 1792055618,
+    "seed": 909858,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 30,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 17.191652,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/16-the-desert-ribbon-rally.mp4",
+    "bytes": 41724075,
+    "sha256": "2c4a16ce0c75071ff01468841306c8697379e33e6472647e5e993195d8170971"
   }
 }

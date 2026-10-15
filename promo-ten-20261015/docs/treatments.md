@@ -1,6 +1,6 @@
 # Ten Ways Into Wonder
 
-Ten additional 30-second original ONECOOL AIFX campaign/promo films. Each has its own visual medium, setting, comic hook and immersive payoff. Human casts are optional: seven people-led films and three object-led films. No animals or titles/subtitles/text boxes. The authentic logo is supplied as the only image reference for physical in-scene branding. All finished MP4 bytes are delivered unchanged from Seedance.
+Ten additional 30-second original ONECOOL AIFX campaign/promo films. Each has its own visual medium, setting, comic hook and immersive payoff. Human casts are optional: six people-led films and four object-led films. No animals or titles/subtitles/text boxes. The authentic logo is supplied as the only image reference for physical in-scene branding. All finished MP4 bytes are delivered unchanged from Seedance.
 
 ## 09-the-snack-sized-blockbuster — The Snack-Sized Blockbuster
 
@@ -32,20 +32,20 @@ No human cast. A palm-sized indigo paper cinema camera on tiny folded wheels is 
 
 Audio: Original joyous marimba, handclaps, brushed percussion and small brass-band melody; crisp paper folds and rhythmic foot taps timed to the animation.
 
-## 11-the-corridor-that-danced — The Corridor That Danced
+## 11-the-jelly-lens — The Jelly Lens
 
-One-take live-action dance spectacle. An impossibly long boutique-hotel corridor with cherry wood, jade velvet and amber practical lamps. Photoreal live action, elegant 28mm moving camera, reflections carefully motivated. A single apparently continuous traveling shot with no title inserts.
+Immersive tactile CGI playground. An enormous original sensory sculpture garden: matte lilac bowls, brushed copper rails, emerald glass ramps and soft peach cushions, under clear pink morning light. Sophisticated physically based CGI, tactile material transitions, satisfying elastic motion, camera skimming extremely close to surfaces.
 
-An original adult Black male location scout with close-cropped hair, cream suit, magenta sneakers and a small cinema camera; six adult human dancers in saturated monochrome outfits. Stylish athletic choreography, warm expressive faces.
+No people or creatures. The protagonist is one translucent amber cube, soft like optical jelly, with a tiny circular glass lens suspended at its center. No face, limbs or resemblance to any existing character.
 
-- 0–3s hook: scout taps a magenta sneaker on the floor; every lamp snaps on in a perfect rhythmic ripple and he raises an eyebrow toward camera.
-- 3–8s: camera circles him beside a luggage trolley with a black ONECOOL AIFX equipment case; he takes his camera, begins a relaxed tap step and a human dancer slides out of a doorway to answer him.
-- 8–14s: camera glides backward as more human dancers join in precise playful call-and-response; the hallway’s decorative wall panels swing into shallow geometric wings synchronized to their footwork.
-- 14–20s: the floor seems to roll sideways like a gentle giant drum while everyone dances through the shifting perspective, playful and safe, architecture moving around coherent human bodies rather than distorted limbs.
-- 20–27s: camera passes through a turning doorway into a huge sunlit courtyard where the corridor has unfolded into a circular dance stage; the scout captures the ensemble’s exuberant synchronized final phrase.
-- 27–30s: push back toward his proud close-up; he tries a tiny final toe tap, one wall lamp does a cheeky late flicker, he smiles and catches the trolley rolling into frame. The real logo case is visible on it; finish on moving performance.
+- 0–3s hook: the amber jelly cube drops onto a huge lilac drum-like bowl, squashes beautifully flat, then springs upward; the camera follows inside its translucent body as the world refracts around the embedded lens.
+- 3–8s: it lands beside an open black filmmaking case bearing the supplied gold ONECOOL AIFX mark, wobbles in comic anticipation, then slides onto a gleaming copper rail leading deep into the giant sculpture garden.
+- 8–14s: an immersive continuous chase follows it rolling, stretching and rebounding through geometric bowls and emerald glass spirals; its tiny lens captures kaleidoscopic refractions, no interface or imagery with lettering.
+- 14–20s: the rail ends above a broad gap. The cube stretches into a long clear elastic bridge, snaps itself forward like a slingshot and lands with a delicious soft wobble on a huge peach cushion.
+- 20–27s: a magnificent camera orbit reveals the entire sculpture garden as one enormous playful filmmaking apparatus, geometric paths spiraling into a sunlit colored-glass amphitheatre; the cube’s internal lens turns the surroundings into a gorgeous moving spectrum.
+- 27–30s: the cube gently returns to the logo-marked equipment case, trying to settle neatly into a square foam recess. It is still slightly too round, gives one tiny comic squish and pops perfectly into place while its center lens gives a final glint. End on moving material, not a card.
 
-Audio: Original infectious funk-jazz instrumental, syncopated bass and brass, clean tap-shoe percussion and coordinated handclaps, with one witty late percussion tick at the final lamp.
+Audio: An original playful electronic instrumental made from warm soft synth plucks, tuned glass taps and syncopated percussion; satisfying elastic boings, copper pings and a tiny final soft pop. No samples or recognizable melody.
 
 ## 12-the-clay-set-catastrophe — The Clay Set Catastrophe
 
@@ -75,7 +75,7 @@ An original adult Southeast Asian woman camera courier with silver cropped hair,
 - 20–27s: one sweeping reveal shows that the entire city chase has arrived at a magnificent rooftop filmmaking moment: human crew, giant practical lights and a projected abstract aurora filling the skyline; she hands over the lens, the camera operator snaps it into place and captures the wonder.
 - 27–30s: crew celebrates; courier leans casually on her hoverboard, it drifts twenty centimeters away and she takes one quick comic balancing step before recovering with a grin. End beside the physical logo case in the spectacular city.
 
-Audio: Original energetic synthwave breakbeat, soft hover-motor hum, rain, air rush, mechanical lens click and a joyful rhythmic finish, no sirens or speech.
+Audio: FOLEY-ONLY ORIGINAL SOUND DESIGN. No music, melody, harmonic score, song, singing, musical samples or existing recordings. Build immersive kinetic rhythm solely from rain patter, hover-motor whirr, air rush, board taps, equipment latches and the satisfying mechanical lens click; varied near/far acoustic space and a playful final skid.
 
 ## 14-the-ink-and-silk-set — The Ink and Silk Set
 
@@ -150,4 +150,4 @@ No cast and no human hands. The playful protagonists are a copper pan, a small o
 - 20–27s: camera dives through the sphere into an enormous immersive galaxy of color, flowing light tunnels and sparkling geometric constellations, then pulls back to reveal this tiny universe in the modest studio kitchen.
 - 27–30s: the prism and pan settle proudly beside the logo case; a small loose spark lands in the pan and makes it give one surprised little hop. The sphere pulses warmly in response, a playful visual call-and-response to the final frame.
 
-Audio: Original upbeat percussion-and-brass groove with warm cinematic strings, copper pan rings, prism chimes, gentle magical sizzles and a bright satisfying musical finish.
+Audio: FOLEY-ONLY ORIGINAL SOUND DESIGN. No music, melody, harmonic score, song, singing, musical samples or existing recordings. Use original ceramic ticks, gentle liquid bubbles, copper pan knocks, airy steam, soft granular light crackles and a tiny final pan hop; playful synchronized physical rhythm and immersive close-up acoustic detail.
