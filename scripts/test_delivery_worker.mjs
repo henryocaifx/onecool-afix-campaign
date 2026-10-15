@@ -30,4 +30,16 @@ assert.equal(reads,1);
 assert.equal((await worker.fetch(new Request(await signed("PUT"),{method:"PUT",headers:{"Content-Type":"video/mp4","Content-Length":"3"},body:"abc"}),env)).status,412);
 assert.equal(writes,1);
 assert.equal((await worker.fetch(new Request(valid.replace("campaigns/test/","outside/")),env)).status,404);
+const nativeKey="campaigns/native/new.mp4";
+const nativeSecret=crypto.randomUUID()+crypto.randomUUID();
+const nativeEnv={...env,NATIVE_PREFIX:"campaigns/native/",NATIVE_ALLOWED_KEYS:JSON.stringify([nativeKey]),NATIVE_SIGNING_KEY:nativeSecret,NATIVE_EXPIRES_AT:String(now+7200),NATIVE_UPLOAD_EXPIRES_AT:String(now+600)};
+async function nativeSigned(secretValue=nativeSecret){
+  const e=String(now+4000), size="3",type="video/mp4";
+  const k=await crypto.subtle.importKey("raw",new TextEncoder().encode(secretValue),{name:"HMAC",hash:"SHA-256"},false,["sign"]);
+  const sig=await crypto.subtle.sign("HMAC",k,new TextEncoder().encode(canonical("GET",nativeKey,e,hash,size,type)));
+  return "https://example.invalid/"+nativeKey+"?"+new URLSearchParams({e,h:hash,s:size,t:type,sig:Array.from(new Uint8Array(sig),b=>b.toString(16).padStart(2,"0")).join("")});
+}
+assert.equal((await worker.fetch(new Request(valid),nativeEnv)).status,404);
+assert.equal((await worker.fetch(new Request(await nativeSigned()),nativeEnv)).status,404);
+assert.equal((await worker.fetch(new Request(await nativeSigned(secret)),nativeEnv)).status,403);
 console.log("Delivery bridge: signatures, expiry, path scope, metadata binding, and overwrite prevention passed.");

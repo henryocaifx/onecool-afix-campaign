@@ -15,4 +15,6 @@ See [the final scripts](docs/scripts-clean.md), [product research](docs/product-
 
 Milestone commits are pushed to `main` in `henryocaifx/onecool-afix-campaign`, as requested.
 
+The additional human-led, unedited native Seedance batch is tracked in [Four New Worlds](native-campaign-20261015/README.md). Its source files, records and R2 prefix remain separate from the original four films.
+
 Delivery prefix: `campaigns/20261015T075922Z-7d16e228/`. Every final is 2520 × 1080, exact 21:9, 24 fps / 720 frames, H.264 yuv420p with 48 kHz AAC stereo. Signed URLs are in the local `deliverables-manifest.json`; they expire **2026-10-22 16:27:57 Asia/Taipei**. The committed `manifest.json` retains public object keys, hashes, prompts, settings, usage and verification evidence without publishing signed access URLs.

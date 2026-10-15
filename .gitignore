@@ -16,3 +16,4 @@ deliverables-manifest.json
 **/sources/*.mp4
 **/records/*-private.json
 **/deliverables-manifest.json
+*.part
