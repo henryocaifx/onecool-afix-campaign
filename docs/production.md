@@ -1,5 +1,7 @@
 # Production specification
 
+**Current delivery:** Clean, text-free 30-second masters. The later user instruction removes all title/subtitle/text-box treatments and closing typography described in the original plan. The final edit and timing are specified in `docs/editing-clean.md` and `docs/scripts-clean.md`.
+
 ## Verified provider configuration
 
 Official documentation retrieved on 2026-10-15:

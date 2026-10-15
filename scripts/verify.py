@@ -5,15 +5,32 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser(); parser.add_argument("--film"); args=parser.parse_args()
 results = []
 for film in json.loads((ROOT/"records/films.json").read_text()):
     fid = film["id"]
+    if args.film and fid!=args.film:
+        continue
     path = ROOT/"films"/(fid+".mp4")
     if not path.exists():
         results.append({"film_id":fid,"status":"missing"})
         continue
+    technical_path=ROOT/"records"/(fid+"-technical.json")
+    technical=json.loads(technical_path.read_text()) if technical_path.exists() else {}
+    if technical.get("version")!="clean-text-free":
+        results.append({"film_id":fid,"status":"clean_render_pending"})
+        continue
+    digest=hashlib.sha256(path.read_bytes()).hexdigest()
+    cached_path=ROOT/"records"/(fid+"-verification.json")
+    if cached_path.exists():
+        cached=json.loads(cached_path.read_text())
+        if cached.get("version")=="clean-text-free" and cached.get("sha256")==digest and cached.get("status")=="passed":
+            results.append({k:v for k,v in cached.items() if k!="probe"})
+            print(fid,"passed (verified unchanged clean master)",flush=True)
+            continue
     data=json.loads(subprocess.check_output(["ffprobe","-v","error","-count_frames","-show_streams","-show_format","-of","json",str(path)]))
     v=next(x for x in data["streams"] if x["codec_type"]=="video")
     a=next(x for x in data["streams"] if x["codec_type"]=="audio")
@@ -38,7 +55,7 @@ for film in json.loads((ROOT/"records/films.json").read_text()):
         "audio_below_clipping":bool(loudness and float(loudness["input_tp"])<0),
         "integrated_loudness_near_target":bool(loudness and -18<=float(loudness["input_i"])<=-14),
     }
-    result={"film_id":fid,"status":"passed" if all(checks.values()) else "needs_attention","checks":checks,"loudness":loudness,"decode_errors":errors,"sha256":hashlib.sha256(path.read_bytes()).hexdigest(),"bytes":path.stat().st_size,"probe":data}
+    result={"film_id":fid,"version":"clean-text-free","status":"passed" if all(checks.values()) else "needs_attention","checks":checks,"loudness":loudness,"decode_errors":errors,"sha256":digest,"bytes":path.stat().st_size,"probe":data}
     (ROOT/"records"/(fid+"-verification.json")).write_text(json.dumps(result,indent=2)+"\n")
     results.append({k:v for k,v in result.items() if k!="probe"})
     print(fid,result["status"],{k:v for k,v in checks.items() if not v},flush=True)

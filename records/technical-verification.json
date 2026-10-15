@@ -1,0 +1,142 @@
+[
+  {
+    "film_id": "01-the-little-idea-that-escaped",
+    "version": "clean-text-free",
+    "status": "passed",
+    "checks": {
+      "container_duration_30": true,
+      "video_duration_30": true,
+      "dimensions_2520x1080": true,
+      "square_pixels": true,
+      "aspect_21_9": true,
+      "fps_24": true,
+      "frames_720": true,
+      "h264_yuv420p": true,
+      "aac_stereo_48k": true,
+      "audio_duration_30": true,
+      "full_decode": true,
+      "audio_below_clipping": true,
+      "integrated_loudness_near_target": true
+    },
+    "loudness": {
+      "input_i": "-15.27",
+      "input_tp": "-1.30",
+      "input_lra": "13.20",
+      "input_thresh": "-26.22",
+      "output_i": "-15.62",
+      "output_tp": "-1.50",
+      "output_lra": "6.00",
+      "output_thresh": "-26.19",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.38"
+    },
+    "decode_errors": [],
+    "sha256": "05f21505b50a1d74c114f8a5f5644acbab1d7dbc599a27e80eeda8bbd4b4f111",
+    "bytes": 29557257
+  },
+  {
+    "film_id": "02-deadline-impossible",
+    "version": "clean-text-free",
+    "status": "passed",
+    "checks": {
+      "container_duration_30": true,
+      "video_duration_30": true,
+      "dimensions_2520x1080": true,
+      "square_pixels": true,
+      "aspect_21_9": true,
+      "fps_24": true,
+      "frames_720": true,
+      "h264_yuv420p": true,
+      "aac_stereo_48k": true,
+      "audio_duration_30": true,
+      "full_decode": true,
+      "audio_below_clipping": true,
+      "integrated_loudness_near_target": true
+    },
+    "loudness": {
+      "input_i": "-16.19",
+      "input_tp": "-1.44",
+      "input_lra": "7.70",
+      "input_thresh": "-26.99",
+      "output_i": "-16.16",
+      "output_tp": "-1.50",
+      "output_lra": "7.20",
+      "output_thresh": "-26.92",
+      "normalization_type": "dynamic",
+      "target_offset": "0.16"
+    },
+    "decode_errors": [],
+    "sha256": "91d30196af6e848d787fd41bf3b9a493c3704095f8a334fafbe6568db0323223",
+    "bytes": 44393503
+  },
+  {
+    "film_id": "03-the-last-spark",
+    "version": "clean-text-free",
+    "status": "passed",
+    "checks": {
+      "container_duration_30": true,
+      "video_duration_30": true,
+      "dimensions_2520x1080": true,
+      "square_pixels": true,
+      "aspect_21_9": true,
+      "fps_24": true,
+      "frames_720": true,
+      "h264_yuv420p": true,
+      "aac_stereo_48k": true,
+      "audio_duration_30": true,
+      "full_decode": true,
+      "audio_below_clipping": true,
+      "integrated_loudness_near_target": true
+    },
+    "loudness": {
+      "input_i": "-17.22",
+      "input_tp": "-1.40",
+      "input_lra": "12.10",
+      "input_thresh": "-27.76",
+      "output_i": "-16.60",
+      "output_tp": "-1.50",
+      "output_lra": "6.50",
+      "output_thresh": "-26.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.60"
+    },
+    "decode_errors": [],
+    "sha256": "923464cd859a1a1f91183f141adc29eb10dd9863c7c7cf6c9fa4e6a3d92e8623",
+    "bytes": 30555673
+  },
+  {
+    "film_id": "04-the-imagination-heist",
+    "version": "clean-text-free",
+    "status": "passed",
+    "checks": {
+      "container_duration_30": true,
+      "video_duration_30": true,
+      "dimensions_2520x1080": true,
+      "square_pixels": true,
+      "aspect_21_9": true,
+      "fps_24": true,
+      "frames_720": true,
+      "h264_yuv420p": true,
+      "aac_stereo_48k": true,
+      "audio_duration_30": true,
+      "full_decode": true,
+      "audio_below_clipping": true,
+      "integrated_loudness_near_target": true
+    },
+    "loudness": {
+      "input_i": "-16.55",
+      "input_tp": "-1.43",
+      "input_lra": "5.10",
+      "input_thresh": "-26.89",
+      "output_i": "-15.70",
+      "output_tp": "-1.50",
+      "output_lra": "4.40",
+      "output_thresh": "-25.90",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.30"
+    },
+    "decode_errors": [],
+    "sha256": "0d7b415eea314b08949916e432afbd1c425fcc3454dec472490ce81f4356a59c",
+    "bytes": 35228015
+  }
+]

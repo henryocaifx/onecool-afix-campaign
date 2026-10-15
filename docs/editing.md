@@ -1,5 +1,7 @@
 # Reproduce the campaign edit
 
+**Superseded:** This file documents the earlier branded draft. The delivered text-free masters use `docs/editing-clean.md` and the current `scripts/finish.py`.
+
 1. Install Python dependencies in an isolated environment. FFmpeg 7.x and the DejaVu Sans fonts are used. The current managed runtime stores SDK dependencies outside Git in `/workspace/aifx-campaign/vendor`.
 2. Keep the four visual references in `assets/references/` and unaltered real-site screenshots in `assets/captures/`. `cast.png`, `cine.png`, and `movi2.png` show sign-in and are access evidence only. Only `home.png` is used in the edit.
 3. `python scripts/byteplus_jobs.py submit` submits each film once. Existing ledger files suppress new submissions, including ambiguous submission failures. Resolve such failures manually by checking task history; do not delete ledgers to retry blindly.

@@ -1,5 +1,7 @@
 # Locked scripts and timed shot lists · v1
 
+**Original pre-generation plan.** The user's later request removed all titles, subtitles, text boxes and end-card typography. Final clean timelines are in `docs/scripts-clean.md`; the clean export supersedes the graphic treatments below.
+
 All times are seconds from the final film start. Each timeline totals exactly 30 seconds. Final overlays are editorial graphics. UI footage always comes from an authentic application capture. Screens on generated set pieces remain unbranded abstract light until composited. The worlds are imaginative metaphors for creative work, not software simulations or speed guarantees.
 
 Campaign identity: dark end card, white AIFX wordmark text, magenta/violet/cyan Studio treatment, a short film-specific invitation, `AI-powered filmmaking`, and `charsiufan.onecool.ai`. End card remains fully legible 27–30. No narration is needed; sparse dialogue may be subtitled in editing if generated clearly.

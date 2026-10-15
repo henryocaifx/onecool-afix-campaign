@@ -9,7 +9,7 @@ let reads=0, writes=0;
 const env={PREFIX:"campaigns/test/",ALLOWED_KEYS:JSON.stringify([key]),SIGNING_KEY:secret,EXPIRES_AT:String(now+3600),UPLOAD_EXPIRES_AT:String(now+600),BUCKET:{
   head:async()=>{reads++;return null;},
   get:async()=>{reads++;return null;},
-  put:async(k,body,opts)=>{writes++;assert.equal(k,key);assert.equal(opts.onlyIf.etagDoesNotMatch,"*");assert.equal(opts.sha256,hash);return null;},
+  put:async(k,body,opts)=>{writes++;assert.equal(k,key);assert.equal(opts.onlyIf.etagDoesNotMatch,"*");assert.equal(Buffer.from(opts.sha256).toString("hex"),hash);return null;},
 }};
 async function signed(method,override={}) {
   const p={e:String(now+300),h:hash,s:"3",t:"video/mp4",...override};

@@ -42,7 +42,7 @@ export default {
         }
         const object = await env.BUCKET.put(key, request.body, {
           onlyIf: {etagDoesNotMatch:"*"},
-          sha256: h,
+          sha256: Uint8Array.from(h.match(/../g), v => parseInt(v,16)),
           httpMetadata: {contentType:type,cacheControl:"private, no-store"},
           customMetadata: {sha256:h,campaign:"aifx-studio-20261015"},
         });
