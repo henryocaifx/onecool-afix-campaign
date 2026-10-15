@@ -1,0 +1,14 @@
+{
+  "campaign_name": "ONECOOL AIFX — Ten Ways Into Wonder",
+  "campaign_id": "20261015T090200Z-promo-ten",
+  "r2_prefix": "campaigns/20261015T090200Z-promo-ten/",
+  "bucket": "aifx-studio-campaign",
+  "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
+  "status": "creative_prepared",
+  "delivery_mode": "Unmodified native Seedance MP4; no transcoding or post-editing",
+  "requested_duration_seconds": 30,
+  "requested_resolution": "1080p",
+  "requested_ratio": "21:9",
+  "purpose": "Fun, immersive ONECOOL AIFX campaign/promotion",
+  "reference_strategy": "Authentic logo-only image input; all worlds, faces and performances generated natively from original written treatments."
+}
