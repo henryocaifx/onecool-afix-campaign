@@ -1,6 +1,6 @@
 {
   "film_id": "08-the-glass-tide",
-  "status": "queued",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T08:46:37Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -38,15 +38,37 @@
   "result": {
     "id": "cgt-20261015164706-0cmfr",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "queued",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1469372,
+      "total_tokens": 1469372
+    },
     "created_at": 1792054029,
-    "updated_at": 1792054029,
+    "updated_at": 1792054533,
+    "seed": 808151,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 30,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 17.191652,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/08-the-glass-tide.mp4",
+    "bytes": 80077025,
+    "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0"
   }
 }
