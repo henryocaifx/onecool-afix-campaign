@@ -49,7 +49,7 @@ def finish(film):
         graph += ["[v3]null[v4]"]
     graph += [
         "[v4][4:v]overlay=0:0:enable='gte(t,27)',trim=duration=30,fps=24[v]",
-        "[0:a]asetpts=PTS-STARTPTS,aresample=48000,pan=stereo|c0=c0|c1=c0,afade=t=out:st=26.35:d=0.65,apad,atrim=duration=30[original]",
+        "[0:a]asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo,afade=t=out:st=26.35:d=0.65,apad,atrim=duration=30[original]",
         "[5:a]adelay=26700|26700,apad,atrim=duration=30[signature]",
         "[original][signature]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000,atrim=duration=30[a]",
     ]
@@ -57,7 +57,7 @@ def finish(film):
     (ROOT/"records"/(fid+"-edit-command.json")).write_text(json.dumps(args,indent=2)+"\n")
     print(fid, "rendering", flush=True)
     subprocess.run(args, check=True)
-    result = {"source_probe": meta, "final_probe": probe(out), "source_processing": "Lanczos scale to cover 2520x1080, minimal centered crop, SAR 1:1; source mono audio copied to both stereo channels plus original stereo sonic motif; loudness normalization", "final_sha256": hashlib.sha256(out.read_bytes()).hexdigest(), "final_bytes": out.stat().st_size}
+    result = {"source_probe": meta, "final_probe": probe(out), "source_processing": "Lanczos scale to cover 2520x1080, minimal centered crop, SAR 1:1; source audio channels preserved when stereo or promoted when mono, plus original stereo sonic motif; loudness normalization", "final_sha256": hashlib.sha256(out.read_bytes()).hexdigest(), "final_bytes": out.stat().st_size}
     (ROOT/"records"/(fid+"-technical.json")).write_text(json.dumps(result,indent=2)+"\n")
     print(fid, "finished", out.stat().st_size, flush=True)
 

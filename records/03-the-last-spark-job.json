@@ -1,6 +1,6 @@
 {
   "film_id": "03-the-last-spark",
-  "status": "running",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T07:55:01Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -24,15 +24,37 @@
   "result": {
     "id": "cgt-20261015155525-fqrey",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1322639,
+      "total_tokens": 1322639
+    },
     "created_at": 1792050926,
-    "updated_at": 1792050926,
+    "updated_at": 1792051312,
+    "seed": 30421,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 27,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 15.474876,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/03-the-last-spark.mp4",
+    "bytes": 54822108,
+    "sha256": "2b0b975efa0718b687c3a930eeda8d66101f8836ecdf64c6a0e4a78ff5e8d356"
   }
 }

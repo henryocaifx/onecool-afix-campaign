@@ -1,6 +1,6 @@
 {
   "film_id": "01-the-little-idea-that-escaped",
-  "status": "running",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T07:53:56Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -24,15 +24,37 @@
   "result": {
     "id": "cgt-20261015155416-ol9u1",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1322639,
+      "total_tokens": 1322639
+    },
     "created_at": 1792050856,
-    "updated_at": 1792050856,
+    "updated_at": 1792051244,
+    "seed": 10421,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 27,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 15.474876,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/01-the-little-idea-that-escaped.mp4",
+    "bytes": 47795060,
+    "sha256": "cafdcd323ffa9b84645acaa270ebb588a8cab5885ea28515f40dcd3609bef34b"
   }
 }
