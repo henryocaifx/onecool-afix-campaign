@@ -1,0 +1,1244 @@
+{
+  "campaign": {
+    "campaign_name": "ONECOOL AIFX \u2014 Ten Ways Into Wonder",
+    "campaign_id": "20261015T090200Z-promo-ten",
+    "r2_prefix": "campaigns/20261015T090200Z-promo-ten/",
+    "bucket": "aifx-studio-campaign",
+    "cloudflare_account_id": "74b26d7d5321c33aa49d23709d489ec4",
+    "status": "delivered_and_verified",
+    "delivery_mode": "Unmodified native Seedance MP4; no transcoding or post-editing",
+    "requested_duration_seconds": 30,
+    "requested_resolution": "1080p",
+    "requested_ratio": "21:9",
+    "purpose": "Fun, immersive ONECOOL AIFX campaign/promotion",
+    "reference_strategy": "Authentic logo-only image input; all worlds, faces and performances generated natively from original written treatments."
+  },
+  "status": "delivered_and_verified",
+  "films": [
+    {
+      "film_id": "09-the-snack-sized-blockbuster",
+      "title": "The Snack-Sized Blockbuster",
+      "format": "Photoreal macro adventure comedy",
+      "file": "sources/09-the-snack-sized-blockbuster.mp4",
+      "poster": "posters/09-the-snack-sized-blockbuster.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170613-spcfz",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Photoreal macro adventure comedy. CAST: A tiny adult East Asian woman director with a yellow rain jacket, dark bob and a miniature camera crew of human adults in cobalt workwear. Their scale stays thumb-sized throughout. WORLD AND PHOTOGRAPHY: An ordinary kitchen becomes a spectacular practical movie set from a thumb-sized human viewpoint: enormous lemon rind cliffs, a stainless spoon bridge, translucent soda waterfalls, warm amber morning light. Convincing macro depth, tactile food textures, tiny humans with real faces. EXACT 30-SECOND STORY: 0\u20133s hook: a giant popcorn kernel erupts beside the tiny director like a harmless white volcano; she ducks, then peers out delighted, low wide macro camera traveling with her. 3\u20138s: she opens a small black equipment case bearing the supplied ONECOOL AIFX mark, takes a miniature cinema camera and signals her two-person crew toward a teaspoon bridging a cereal bowl. 8\u201314s: tracking chase across the spoon as a rolling blueberry passes behind; camera swings under the bridge to a dizzying cereal-milk canyon, then follows the crew sliding safely down a curling lemon peel. 14\u201320s: a soda bubble lifts their little camera platform; they steady it together and discover the entire tabletop from above, grinning as a simple snack becomes an epic location. 20\u201327s: enormous cinematic push through a curtain of sparkling soda droplets into a sunset-lit popcorn landscape; tiny director frames the perfect shot while two crew members unfurl a silver reflector like a sail. 27\u201330s: pull all the way back to an ordinary human-sized kitchen table; the tiny crew celebrates atop the black logo case, then one last popcorn puff gently knocks the director\u2019s yellow hat sideways. End on the live comic reaction. ORIGINAL SOUNDTRACK: Playful original orchestral adventure with pizzicato strings, triumphant miniature brass, huge popcorn pops, spoon pings, soda fizz and a light final comedy accent. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909151
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "09-the-snack-sized-blockbuster",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "7e237c111c21577858fa6cd97fe4be1cb5b4455c33abb0215c48ccc9cdd0d12e",
+        "bytes": 43013098,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-24.26",
+          "input_tp": "-2.27",
+          "input_lra": "16.80",
+          "input_thresh": "-35.04",
+          "output_i": "-17.80",
+          "output_tp": "-1.50",
+          "output_lra": "9.20",
+          "output_thresh": "-28.04",
+          "normalization_type": "dynamic",
+          "target_offset": "1.80"
+        }
+      },
+      "r2": {
+        "local_path": "sources/09-the-snack-sized-blockbuster.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/09-the-snack-sized-blockbuster.mp4",
+        "bytes": 43013098,
+        "sha256": "7e237c111c21577858fa6cd97fe4be1cb5b4455c33abb0215c48ccc9cdd0d12e",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"56061742c224eedb8f59286470462789\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "10-the-paper-street-parade",
+      "title": "The Paper Street Parade",
+      "format": "Handcrafted cut-paper stop-motion musical",
+      "file": "sources/10-the-paper-street-parade.mp4",
+      "poster": "posters/10-the-paper-street-parade.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170615-qai0n",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Handcrafted cut-paper stop-motion musical. CAST: No human cast. A palm-sized indigo paper cinema camera on tiny folded wheels is the curious protagonist; it has a lens and moving mechanical parts but no face, limbs or animal features. WORLD AND PHOTOGRAPHY: A tactile handmade pop-up city, visible paper fibers and folded edges, coral/indigo/saffron palette, warm tabletop theatre lighting. Elaborate handmade stop-motion animation with smooth camera movement, not a slideshow or a drawing being revealed. EXACT 30-SECOND STORY: 0\u20133s hook: a tiny paper cinema camera rolls along a flat tabletop; the paper pavement suddenly folds into a staircase and carries it upward like an ingenious mechanical escalator. 3\u20138s: a black paper equipment case bearing the supplied ONECOOL AIFX mark unfolds, releasing the camera onto a spiral street; a red paper tram glides alongside as the camera tilts its lens in curiosity. 8\u201314s: an exuberant parade of colorful geometric props dances through the street: folded cones hop, paper wheels spin, balconies accordion open, the viewpoint dives between layers of tactile paper depth. 14\u201320s: the parade reaches the bare tabletop edge. The little camera nudges a loose paper corner, setting off a satisfying chain reaction that folds the entire road into a giant curved bridge. 20\u201327s: immersive swoop across the bridge as an elaborate city blooms from a single sheet into radial towers and curved streets; the little camera films the cascading handmade transformation. 27\u201330s: camera returns beside the physical logo case; a tiny paper step folds unexpectedly under one wheel, it wobbles, catches its balance and gives a playful lens tilt. End with the handmade world still moving. ORIGINAL SOUNDTRACK: Original joyous marimba, handclaps, brushed percussion and small brass-band melody; crisp paper folds and rhythmic foot taps timed to the animation. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909252
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "10-the-paper-street-parade",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "c7dca8b10f4c2764033d0369377f3c111bd5954ca15a8e1b2854fb0eda6fc1ab",
+        "bytes": 44551589,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-24.78",
+          "input_tp": "-4.44",
+          "input_lra": "7.20",
+          "input_thresh": "-34.95",
+          "output_i": "-16.27",
+          "output_tp": "-1.50",
+          "output_lra": "5.70",
+          "output_thresh": "-26.40",
+          "normalization_type": "dynamic",
+          "target_offset": "0.27"
+        }
+      },
+      "r2": {
+        "local_path": "sources/10-the-paper-street-parade.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/10-the-paper-street-parade.mp4",
+        "bytes": 44551589,
+        "sha256": "c7dca8b10f4c2764033d0369377f3c111bd5954ca15a8e1b2854fb0eda6fc1ab",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"4ae2dd09baeaf42cb4287b52b41c85eb\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "11-the-jelly-lens",
+      "title": "The Jelly Lens",
+      "format": "Immersive tactile CGI playground",
+      "file": "sources/11-the-jelly-lens.mp4",
+      "poster": "posters/11-the-jelly-lens.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015171603-bfoyy",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Immersive tactile CGI playground. CAST: No people or creatures. The protagonist is one translucent amber cube, soft like optical jelly, with a tiny circular glass lens suspended at its center. No face, limbs or resemblance to any existing character. WORLD AND PHOTOGRAPHY: An enormous original sensory sculpture garden: matte lilac bowls, brushed copper rails, emerald glass ramps and soft peach cushions, under clear pink morning light. Sophisticated physically based CGI, tactile material transitions, satisfying elastic motion, camera skimming extremely close to surfaces. EXACT 30-SECOND STORY: 0\u20133s hook: the amber jelly cube drops onto a huge lilac drum-like bowl, squashes beautifully flat, then springs upward; the camera follows inside its translucent body as the world refracts around the embedded lens. 3\u20138s: it lands beside an open black filmmaking case bearing the supplied gold ONECOOL AIFX mark, wobbles in comic anticipation, then slides onto a gleaming copper rail leading deep into the giant sculpture garden. 8\u201314s: an immersive continuous chase follows it rolling, stretching and rebounding through geometric bowls and emerald glass spirals; its tiny lens captures kaleidoscopic refractions, no interface or imagery with lettering. 14\u201320s: the rail ends above a broad gap. The cube stretches into a long clear elastic bridge, snaps itself forward like a slingshot and lands with a delicious soft wobble on a huge peach cushion. 20\u201327s: a magnificent camera orbit reveals the entire sculpture garden as one enormous playful filmmaking apparatus, geometric paths spiraling into a sunlit colored-glass amphitheatre; the cube\u2019s internal lens turns the surroundings into a gorgeous moving spectrum. 27\u201330s: the cube gently returns to the logo-marked equipment case, trying to settle neatly into a square foam recess. It is still slightly too round, gives one tiny comic squish and pops perfectly into place while its center lens gives a final glint. End on moving material, not a card. ORIGINAL SOUNDTRACK: An original playful electronic instrumental made from warm soft synth plucks, tuned glass taps and syncopated percussion; satisfying elastic boings, copper pings and a tiny final soft pop. No samples or recognizable melody. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909353
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "11-the-jelly-lens",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03",
+        "bytes": 31870183,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-22.90",
+          "input_tp": "-1.04",
+          "input_lra": "11.80",
+          "input_thresh": "-33.66",
+          "output_i": "-18.62",
+          "output_tp": "-1.50",
+          "output_lra": "6.10",
+          "output_thresh": "-29.00",
+          "normalization_type": "dynamic",
+          "target_offset": "2.62"
+        }
+      },
+      "r2": {
+        "local_path": "sources/11-the-jelly-lens.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/11-the-jelly-lens.mp4",
+        "bytes": 31870183,
+        "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"d4628de618c4e2aa653c1b65973ef4e1\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "12-the-clay-set-catastrophe",
+      "title": "The Clay Set Catastrophe",
+      "format": "Premium claymation production comedy",
+      "file": "sources/12-the-clay-set-catastrophe.mp4",
+      "poster": "posters/12-the-clay-set-catastrophe.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170619-4jld7",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Premium claymation production comedy. CAST: No human or animal cast. Three expressive original clay filmmaking objects: a mustard cinema camera on chunky wheels, a teal articulated studio lamp and a burgundy boom microphone on a little rolling stand. Convey personality through mechanical movement; no faces or animal parts. WORLD AND PHOTOGRAPHY: A lavish miniature clay film studio with a deliberately handmade lunar landscape, chunky practical lights and pastel blue cyclorama. Distinct high-end clay animation, tactile soft plasticine material, expressive character acting, smoothly animated cinematography. EXACT 30-SECOND STORY: 0\u20133s hook: a tiny wheeled clay cinema camera aims proudly at a perfect clay moon; the moon immediately squashes into a pancake with a soft plop, and the camera lens slowly droops in dismay. 3\u20138s: the camera rolls out of its black clay equipment case, clearly bearing the supplied gold ONECOOL AIFX mark; the teal lamp bends over the pancake while the burgundy microphone leans in like a curious friend. 8\u201314s: joyful object teamwork: the lamp warms and bends the pancake into a curved ramp, the microphone nudges little mountains into place, and the camera rolls a circular dolly path around the set. 14\u201320s: their mistake becomes an ingenious circular moon racetrack; all three filmmaking objects glide along it, bouncing in rhythmic stop-motion as the little camera films their extraordinary playground. 20\u201327s: spectacular orbit reveals an entire whimsical clay planet made from the studio set, circular track weaving between tactile mountains and pastel cloud rings, the three friendly objects riding together. 27\u201330s: the camera proudly settles beside the physical logo case; a pea-sized clay moon drops onto its lens hood with a soft plop. The camera tilts up, the lamp bends as if laughing, and the microphone catches the tiny final bounce. ORIGINAL SOUNDTRACK: Original bouncy tuba, mallet percussion and pizzicato score, tactile clay squishes, wooden dolly rattles and a precisely timed soft final plop. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909454
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "12-the-clay-set-catastrophe",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "b9557f599c42711291f419aae35d8fa6b69f3039df5d69aa42072c5d6518997f",
+        "bytes": 38452931,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-26.03",
+          "input_tp": "-4.85",
+          "input_lra": "6.00",
+          "input_thresh": "-36.33",
+          "output_i": "-16.53",
+          "output_tp": "-1.50",
+          "output_lra": "4.80",
+          "output_thresh": "-26.67",
+          "normalization_type": "dynamic",
+          "target_offset": "0.53"
+        }
+      },
+      "r2": {
+        "local_path": "sources/12-the-clay-set-catastrophe.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/12-the-clay-set-catastrophe.mp4",
+        "bytes": 38452931,
+        "sha256": "b9557f599c42711291f419aae35d8fa6b69f3039df5d69aa42072c5d6518997f",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"92e6167339edcf4a8425c68ec56cb050\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "13-the-neon-lens-run",
+      "title": "The Neon Lens Run",
+      "format": "Immersive cyberpunk courier ride",
+      "file": "sources/13-the-neon-lens-run.mp4",
+      "poster": "posters/13-the-neon-lens-run.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015171741-qra8l",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Immersive cyberpunk courier ride. CAST: An original adult Southeast Asian woman camera courier with silver cropped hair, electric-blue windbreaker and coral helmet; human film crew waiting on an enormous rooftop production set. Expressive confident human faces, no masked monsters. WORLD AND PHOTOGRAPHY: A rain-wet futuristic city at violet night, enormous clean geometric towers, luminous color with NO readable billboards. Photoreal cinema, practical camera vibration, flowing first-person-to-third-person transitions, exciting playful action without violence. EXACT 30-SECOND STORY: 0\u20133s hook: a round cinema lens case rolls off a rooftop edge; the courier dives on her small hoverboard and catches it midair, camera plunging after her into the neon street canyon. 3\u20138s: close tracking alongside her as she clips the black case to her board; the authentic supplied ONECOOL AIFX gold logo is clearly physically printed on the case. She laughs at the narrow escape and accelerates. 8\u201314s: exhilarating low glide through a safe empty lane, under a descending cargo platform and up a spiraling parking ramp; colored rain beads slide across the lens, coherent body and board physics. 14\u201320s: a gap opens between two rooftops; she rides a gently curving maintenance rail, skims through a bright circular architectural opening and lands lightly on the waiting film set. 20\u201327s: one sweeping reveal shows that the entire city chase has arrived at a magnificent rooftop filmmaking moment: human crew, giant practical lights and a projected abstract aurora filling the skyline; she hands over the lens, the camera operator snaps it into place and captures the wonder. 27\u201330s: crew celebrates; courier leans casually on her hoverboard, it drifts twenty centimeters away and she takes one quick comic balancing step before recovering with a grin. End beside the physical logo case in the spectacular city. ORIGINAL SOUNDTRACK: FOLEY-ONLY ORIGINAL SOUND DESIGN. No music, melody, harmonic score, song, singing, musical samples or existing recordings. Build immersive kinetic rhythm solely from rain patter, hover-motor whirr, air rush, board taps, equipment latches and the satisfying mechanical lens click; varied near/far acoustic space and a playful final skid. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters. SOUNDTRACK OVERRIDE: This treatment is entirely Foley-only. Omit all instrumental music and all melodies. Generate only new original sound effects timed to the physical action. Do not reproduce any existing audio.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909555
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "13-the-neon-lens-run",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "55bd47c0c1bd83c8520590e235132dd740af4fde0a54d95c9a9bd4b491bca9a6",
+        "bytes": 59089163,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-22.91",
+          "input_tp": "-4.09",
+          "input_lra": "10.60",
+          "input_thresh": "-33.65",
+          "output_i": "-17.53",
+          "output_tp": "-1.50",
+          "output_lra": "7.30",
+          "output_thresh": "-27.74",
+          "normalization_type": "dynamic",
+          "target_offset": "1.53"
+        }
+      },
+      "r2": {
+        "local_path": "sources/13-the-neon-lens-run.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/13-the-neon-lens-run.mp4",
+        "bytes": 59089163,
+        "sha256": "55bd47c0c1bd83c8520590e235132dd740af4fde0a54d95c9a9bd4b491bca9a6",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"917047f21f90ded310ee359622662daa\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "14-the-ink-and-silk-set",
+      "title": "The Ink and Silk Set",
+      "format": "Painterly wuxia dance fantasy",
+      "file": "sources/14-the-ink-and-silk-set.mp4",
+      "poster": "posters/14-the-ink-and-silk-set.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170622-r9j4x",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Painterly wuxia dance fantasy. CAST: An original adult East Asian woman movement director with a vermilion silk costume and long tied dark hair; two adult human performers in ivory. Graceful human faces and athletic nonviolent choreography, no weapons or combat. WORLD AND PHOTOGRAPHY: A beautiful hybrid of realistic human performance and Chinese ink-wash landscapes: ivory mist, charcoal mountain silhouettes, flowing vermilion silk and tactile water reflections. Cinematic natural faces, sumptuous high-speed fabric motion and painterly world transformations. EXACT 30-SECOND STORY: 0\u20133s hook: the heroine snaps open a long red silk ribbon and the empty white space behind her ripples into a vast ink-painted mountain valley; camera follows the ribbon into depth. 3\u20138s: she steps past a real black film-equipment case bearing the supplied ONECOOL AIFX mark, lifts a small cinema camera and gestures for two human performers to follow her onto a stone terrace. 8\u201314s: joyful flowing choreography: the human performers leap through trailing silk arcs while ink mountains bloom in their wake, camera tracks close to grounded feet then rises with the ribbon, no fighting. 14\u201320s: a misty ravine interrupts the dance; the heroine and performers toss their long red fabrics across it, which become an elegant suspended silk bridge. They cross together with playful synchronized steps. 20\u201327s: glorious sweeping panorama reveals red silk winding through an immense black-and-white painted valley, real human silhouettes dancing across layered terraces, the heroine filming them as her simple motion creates a spectacular world. 27\u201330s: silk settles back around the heroine beside the logo case; one ribbon tip mischievously lands on her nose, she blows it away and exchanges a delighted human smile with her performers. End in the moving landscape. ORIGINAL SOUNDTRACK: Original modern cinematic score using plucked strings, airy flute, restrained hand percussion and rising orchestral warmth, close silk swishes, light footsteps and a playful final breath-like flourish. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909656
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "14-the-ink-and-silk-set",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "2f73385df7c250afa789a79782bd0fa2062cfe5fbd8a8821a02aa0647e35620c",
+        "bytes": 48752152,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-22.87",
+          "input_tp": "-1.08",
+          "input_lra": "9.20",
+          "input_thresh": "-33.16",
+          "output_i": "-15.70",
+          "output_tp": "-1.50",
+          "output_lra": "8.20",
+          "output_thresh": "-25.97",
+          "normalization_type": "dynamic",
+          "target_offset": "-0.30"
+        }
+      },
+      "r2": {
+        "local_path": "sources/14-the-ink-and-silk-set.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/14-the-ink-and-silk-set.mp4",
+        "bytes": 48752152,
+        "sha256": "2f73385df7c250afa789a79782bd0fa2062cfe5fbd8a8821a02aa0647e35620c",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"839e9507c7dbd8849f488fb47cbf309b\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "15-the-popcorn-orbit",
+      "title": "The Popcorn Orbit",
+      "format": "Retro-futurist space comedy",
+      "file": "sources/15-the-popcorn-orbit.mp4",
+      "poster": "posters/15-the-popcorn-orbit.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170623-zs9zv",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Retro-futurist space comedy. CAST: Two original adult human space filmmakers: a South Asian woman cinematographer with curly dark hair and a burnt-orange flight suit, and an older white male sound recordist with round glasses and a teal suit. Cheerful, believable human performances. WORLD AND PHOTOGRAPHY: An optimistic 1970s-inspired spaceship cinema cabin: cream molded panels, orange cushions, brushed steel, enormous curved window. Practical miniature space exteriors, gorgeous cosmic color, photoreal tactile interior. All panels blank or geometric without lettering. EXACT 30-SECOND STORY: 0\u20133s hook: a single popcorn piece floats out of a bowl; the cinematographer tries to catch it with her mouth, misses, and it drifts toward the giant window. 3\u20138s: she gently pushes off a seat, collects a cinema camera from a floating black equipment case with the supplied gold ONECOOL AIFX mark, while the recordist steadies a boom microphone and points outside. 8\u201314s: camera glides with them in convincing zero gravity as they playfully chase the floating popcorn through the cabin; their bodies remain coherent and their human faces expressive, shoes tapping cushions gently. 14\u201320s: they reach the window and discover an enormous luminous ringed planet; the tiny popcorn aligns with the planet for a funny forced-perspective eclipse. She realizes the shot, raises her camera and carefully frames it. 20\u201327s: magnificent pull through the curved window to reveal their small spaceship skimming a vast sparkling planetary ring, then back to the two filmmakers capturing cosmic wonder together; nebula colors echo orange and teal. 27\u201330s: recordist finally catches the popcorn, looks triumphant, then dozens more float out of the bowl behind him. The cinematographer silently laughs, camera still rolling beside the logo case. Finish on the human comic payoff. ORIGINAL SOUNDTRACK: Original playful analog-synth space score with warm orchestral strings, soft cabin hum, popcorn taps and a light sparkling percussion cascade for the final gag. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909757
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "15-the-popcorn-orbit",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "faee9679bb7a81f6eeee97d7e7c0d90ed6aa684af4b672d6039419a21b5d54cf",
+        "bytes": 50335518,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-27.64",
+          "input_tp": "-7.43",
+          "input_lra": "10.50",
+          "input_thresh": "-37.94",
+          "output_i": "-15.08",
+          "output_tp": "-1.50",
+          "output_lra": "4.80",
+          "output_thresh": "-25.08",
+          "normalization_type": "dynamic",
+          "target_offset": "-0.92"
+        }
+      },
+      "r2": {
+        "local_path": "sources/15-the-popcorn-orbit.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/15-the-popcorn-orbit.mp4",
+        "bytes": 50335518,
+        "sha256": "faee9679bb7a81f6eeee97d7e7c0d90ed6aa684af4b672d6039419a21b5d54cf",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"226b0c95d51b92c9f019540a0d3eb86c\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "16-the-desert-ribbon-rally",
+      "title": "The Desert Ribbon Rally",
+      "format": "Sunlit kinetic fashion-adventure promo",
+      "file": "sources/16-the-desert-ribbon-rally.mp4",
+      "poster": "posters/16-the-desert-ribbon-rally.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170624-jc5sb",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Sunlit kinetic fashion-adventure promo. CAST: An original adult Arab woman camera driver with short dark hair, saffron scarf and cream utility suit; two adult human performer friends in cobalt and scarlet on low electric land-sailing boards. Confident friendly faces, protective practical gear. WORLD AND PHOTOGRAPHY: A pristine sunlit salt flat surrounded by peach sandstone arches, monumental long colored fabrics fluttering in warm wind. Premium photoreal automotive/fashion cinematography, ultra-low tracking cameras, heat shimmer and golden-hour aerials. No other vehicles or hazards. EXACT 30-SECOND STORY: 0\u20133s hook: a huge scarlet ribbon whips past camera and reveals the driver skimming inches above the bright salt flat on a low camera buggy, her saffron scarf snapping in the wind. 3\u20138s: close detail of the real black ONECOOL AIFX equipment case secured on the buggy, then her smiling eyes as she swings the cinema camera toward two human friends sailing alongside. 8\u201314s: kinetic tracking race through broad sandstone arches, the friends\u2019 long scarlet and cobalt streamers tracing elegant flowing paths; clear human control, graceful safe stunts and rhythmic cuts. 14\u201320s: a flat empty horizon becomes their opportunity; all three spiral around one another, choreographing long fabric trails that rise on the wind like an enormous floating sculpture. 20\u201327s: breathtaking aerial climbs from the driver\u2019s delighted face to reveal a kilometer-scale red-and-blue ribbon spiral suspended above the salt mirror, three tiny human creators at its center, real reflected sunlight and tangible fabric texture. 27\u201330s: they coast to a stop together beside the camera buggy and physical logo case; a loose end of saffron cloth gently covers the driver\u2019s lens, she flips it away with a laugh and catches one last beautiful shot. End on motion. ORIGINAL SOUNDTRACK: Original driving hand percussion, pulsing bass and jubilant strings, electric wheel whir, broad wind, taut fabric snaps, warm energetic final musical cadence. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909858
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "16-the-desert-ribbon-rally",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "2c4a16ce0c75071ff01468841306c8697379e33e6472647e5e993195d8170971",
+        "bytes": 41724075,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-23.26",
+          "input_tp": "-2.96",
+          "input_lra": "8.30",
+          "input_thresh": "-33.36",
+          "output_i": "-17.01",
+          "output_tp": "-1.50",
+          "output_lra": "5.70",
+          "output_thresh": "-27.07",
+          "normalization_type": "dynamic",
+          "target_offset": "1.01"
+        }
+      },
+      "r2": {
+        "local_path": "sources/16-the-desert-ribbon-rally.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/16-the-desert-ribbon-rally.mp4",
+        "bytes": 41724075,
+        "sha256": "2c4a16ce0c75071ff01468841306c8697379e33e6472647e5e993195d8170971",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"e1a29df6971f2a5a9fdd8012a18a615b\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "17-the-museum-of-maybe",
+      "title": "The Museum of Maybe",
+      "format": "Whimsical live-action match-cut wonder",
+      "file": "sources/17-the-museum-of-maybe.mp4",
+      "poster": "posters/17-the-museum-of-maybe.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015170626-7bzqr",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Whimsical live-action match-cut wonder. CAST: An original adult Latina art installer with short dark curls, emerald overalls and white sneakers; a dignified older East Asian male museum guard with navy uniform. Warm expressive adult human performances. WORLD AND PHOTOGRAPHY: A quiet ivory contemporary art museum at dawn, highly polished stone, huge skylights and surreal practical sculptures. Photoreal elegant symmetrical compositions that become fluid immersive camera moves, rich jewel-color surprises and visual humor. EXACT 30-SECOND STORY: 0\u20133s hook: installer balances a tiny red cube on its corner; every enormous sculpture behind her gently tips onto one corner in sympathy. She freezes, eyes widening. 3\u20138s: she reaches into a black camera case marked with the supplied ONECOOL AIFX logo and starts filming; the guard appears, looks at the impossible balance, then quietly adjusts his hat and joins her. 8\u201314s: she walks around a hollow circular sculpture and the camera match-moves through it into a sunlit marble canyon; they step through another frame into a room of liquid mirrored curtains, playful discovery rather than danger. 14\u201320s: a long staircase folds down into a giant spiral slide; she looks at the guard, he gives a tiny dignified nod, and they glide down together with delighted human reactions, camera sweeping alongside. 20\u201327s: the slide delivers them to a monumental hall where all sculptures slowly orbit in perfect elegant balance, skylight beams creating huge moving patterns; she captures the wondrous scene while the guard does a surprisingly graceful little dance. 27\u201330s: return to the original tiny cube beside the physical logo case. Guard gently nudges it flat, everything lands neatly back in place, then one small pedestal rotates a final cheeky quarter-turn. The two exchange amused smiles. ORIGINAL SOUNDTRACK: Original playful chamber-orchestra score with ticking marimba, sweeping waltz strings and soft bass, polished-stone footfalls, airy transitions and one precise wooden tick at the final pedestal. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 909959
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "17-the-museum-of-maybe",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "54d44561cf736f6d3ba266e811d8d7bb653cf1c820bc016ee2828c7af36f2e7a",
+        "bytes": 42038925,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-24.82",
+          "input_tp": "-3.29",
+          "input_lra": "13.10",
+          "input_thresh": "-35.57",
+          "output_i": "-16.80",
+          "output_tp": "-1.50",
+          "output_lra": "8.00",
+          "output_thresh": "-27.05",
+          "normalization_type": "dynamic",
+          "target_offset": "0.80"
+        }
+      },
+      "r2": {
+        "local_path": "sources/17-the-museum-of-maybe.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/17-the-museum-of-maybe.mp4",
+        "bytes": 42038925,
+        "sha256": "54d44561cf736f6d3ba266e811d8d7bb653cf1c820bc016ee2828c7af36f2e7a",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"674804bb72e8cf846221550dc328f9f4\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    },
+    {
+      "film_id": "18-the-midnight-light-kitchen",
+      "title": "The Midnight Light Kitchen",
+      "format": "Saturated culinary VFX comedy",
+      "file": "sources/18-the-midnight-light-kitchen.mp4",
+      "poster": "posters/18-the-midnight-light-kitchen.png",
+      "generation": {
+        "model": "dreamina-seedance-2-5-260628",
+        "endpoint": "ep-20260807143930-zwn48",
+        "job_id": "cgt-20261015171743-zxjyi",
+        "prompt": "Create a complete ORIGINAL 30-second immersive, FUN campaign film promoting ONECOOL AIFX through imaginative filmmaking and playful visual discovery. Deliver native 1080p, 21:9 MP4 with synchronized original audio. This must be an engaging moving film, not a logo animation, not a mood reel, not a still-image slideshow. Establish a clear protagonist, surprising hook, playful escalation, clever creative action, spectacular payoff and a final comic visual button. Audience should feel inside the action. STYLE: Saturated culinary VFX comedy. CAST: No cast and no human hands. The playful protagonists are a copper pan, a small optical prism and ribbons of living colored light. Objects move through clean invisible practical mechanisms, with personality expressed by timing and physical movement, never faces or animal forms. WORLD AND PHOTOGRAPHY: A sleek midnight studio kitchen with cobalt tile, copper cookware, warm steam and jewel-colored practical lighting. Photoreal food cinematography blended with surreal light effects, dynamic macro transitions, playful human craft and a warm communal payoff. EXACT 30-SECOND STORY: 0\u20133s hook: an egg-shaped white ceramic prop rocks, cracks open over a copper pan and spills a tiny golden sunrise made of light; the pan rocks backward in a delighted visual reaction. 3\u20138s: a black film-lighting equipment case bearing the supplied gold ONECOOL AIFX logo clicks open; a little glass prism slides out onto the counter and catches the sunrise in a brilliant spectrum. 8\u201314s: joyful rhythmic object choreography: the pan tosses a ribbon of aurora, a glass bowl catches rainbow steam and luminous droplets bounce from spoon to spoon; camera swoops close through jewel-colored reflections. 14\u201320s: the glow swells into an unruly cloud; the prism rotates, copper lids tilt like mirrors and together they fold the color into one perfectly balanced floating sphere above a plain white plate. 20\u201327s: camera dives through the sphere into an enormous immersive galaxy of color, flowing light tunnels and sparkling geometric constellations, then pulls back to reveal this tiny universe in the modest studio kitchen. 27\u201330s: the prism and pan settle proudly beside the logo case; a small loose spark lands in the pan and makes it give one surprised little hop. The sphere pulses warmly in response, a playful visual call-and-response to the final frame. ORIGINAL SOUNDTRACK: FOLEY-ONLY ORIGINAL SOUND DESIGN. No music, melody, harmonic score, song, singing, musical samples or existing recordings. Use original ceramic ticks, gentle liquid bubbles, copper pan knocks, airy steam, soft granular light crackles and a tiny final pan hop; playful synchronized physical rhythm and immersive close-up acoustic detail. @Image1 is the supplied AUTHENTIC golden ONE COOL / AIFX brand logo, NOT an environment reference. Use only that exact mark, with its original arrangement and proportions, physically printed on the black filmmaking equipment case described in the story. Give the case a naturally readable medium-close glimpse during seconds 3\u20138 and a second glimpse in the final scene; the logo must stay on the prop inside the world. It is the ONLY permitted readable lettering. NEVER turn the logo reference into a full-screen still or closing card. No title, subtitle, caption, text box, words, numbers, credits, readable signage, UI, border, watermark, end slate or overlaid graphic. Finish with moving action until the last frame. No dialogue, narration, singing, lyrics or borrowed melodies; use only the original instrumental music and motivated sound effects described. Follow the specified cast exactly: people, animated objects or no cast as the treatment requires. Any human characters must be original fictional adults. No animals, animal characters or animal-shaped mascots. Maintain identity, costume, props and spatial continuity. Build a polished campaign experience with energetic but legible pacing, tangible materials, playful surprises and memorable images. No references to existing franchises, celebrities or copyrighted characters. SOUNDTRACK OVERRIDE: This treatment is entirely Foley-only. Omit all instrumental music and all melodies. Generate only new original sound effects timed to the physical action. Do not reproduce any existing audio.",
+        "settings": {
+          "duration": 30,
+          "resolution": "1080p",
+          "ratio": "21:9",
+          "generate_audio": true,
+          "watermark": false,
+          "output_format": "mp4",
+          "seed": 910060
+        },
+        "references": [
+          {
+            "path": "assets/brand/onecool-logo.png",
+            "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916",
+            "transport": "base64 data URL",
+            "role": "reference_image"
+          }
+        ],
+        "usage": {
+          "completion_tokens": 1469372,
+          "total_tokens": 1469372
+        },
+        "cost": {
+          "actual_invoice_usd": null,
+          "list_price_usd_per_million_tokens": 11.7,
+          "estimated_list_price_usd": 17.191652,
+          "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+        }
+      },
+      "native_output": {
+        "film_id": "18-the-midnight-light-kitchen",
+        "status": "passed",
+        "checks": {
+          "unchanged_provider_sha256": true,
+          "requested_native_30_seconds": true,
+          "native_duration_near_30": true,
+          "native_1080p_ultrawide": true,
+          "native_24_fps": true,
+          "soundtrack_present": true,
+          "no_subtitle_track": true,
+          "full_video_audio_decode": true,
+          "r2_single_request_size": true
+        },
+        "sha256": "5522974a638cd16dad3262ca690f6ac5623e997a577f11f5ab1f78e22624acd9",
+        "bytes": 58615008,
+        "no_transcode_or_post_edit": true,
+        "native_video_codec": "hevc",
+        "native_pixel_format": "yuv420p10le",
+        "native_video_duration": "30.041667",
+        "native_container_duration": "30.080000",
+        "native_audio_duration": "30.080000",
+        "native_dimensions": [
+          2206,
+          946
+        ],
+        "native_fps": "24/1",
+        "native_frames": "721",
+        "native_audio_codec": "aac",
+        "native_audio_channels": 2,
+        "loudness_analysis_only": {
+          "input_i": "-25.28",
+          "input_tp": "-4.63",
+          "input_lra": "7.90",
+          "input_thresh": "-36.22",
+          "output_i": "-18.07",
+          "output_tp": "-1.50",
+          "output_lra": "6.40",
+          "output_thresh": "-28.54",
+          "normalization_type": "dynamic",
+          "target_offset": "2.07"
+        }
+      },
+      "r2": {
+        "local_path": "sources/18-the-midnight-light-kitchen.mp4",
+        "category": "final",
+        "key": "campaigns/20261015T090200Z-promo-ten/18-the-midnight-light-kitchen.mp4",
+        "bytes": 58615008,
+        "sha256": "5522974a638cd16dad3262ca690f6ac5623e997a577f11f5ab1f78e22624acd9",
+        "content_type": "video/mp4",
+        "bucket": "aifx-studio-campaign",
+        "etag": "\"75bf07769289f21c33224d3a1d4cef38\"",
+        "readback_sha256_matches": true,
+        "downloaded_media_full_decode_passed": true,
+        "range_playback_verified": true,
+        "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+        "status": "uploaded_and_verified"
+      }
+    }
+  ],
+  "visual_review": {
+    "method": "Human inspection of one-frame-per-second temporal sheets and selected full-resolution frames; full native media decode is documented separately.",
+    "no_post_editing": true,
+    "films": [
+      {
+        "film_id": "09-the-snack-sized-blockbuster",
+        "status": "accepted",
+        "observations": "Macro snack-table adventure, expressive miniature crew, spoon crossing, bubble ride and enormous sunset food landscape. Clear physical ONECOOL AIFX case branding. Native scale continuity is fantastical and varies between the lead and supporting crew. No animals, narrative title, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "10-the-paper-street-parade",
+        "status": "accepted",
+        "observations": "Tactile paper camera and city, lively geometric parade, folded bridge and elaborate city unfolding. Physical logo on the paper equipment case. No people required; no animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "11-the-jelly-lens",
+        "status": "accepted",
+        "observations": "Distinct polished CGI: translucent amber lens cube squashes, travels copper rails, stretches across a gap and settles into its physical branded case. Strong material detail and immersive geometric environment. No human cast needed; no animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "12-the-clay-set-catastrophe",
+        "status": "accepted",
+        "observations": "Handmade clay camera, lamp and microphone react to a flattened moon, build a circular set and ride through the miniature world. Clear physical logo case appears early and late. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "13-the-neon-lens-run",
+        "status": "accepted",
+        "observations": "Human courier and immersive hoverboard pursuit through a neon city, then a clear arrival at a rooftop production set. Physical ONECOOL AIFX lens case appears prominently. Native background neon signage includes incidental lettering despite the prompt requesting geometric signs. No narrative title, subtitles, text boxes or animals observed. Original Foley-only sound design requested; no audio edit applied."
+      },
+      {
+        "film_id": "14-the-ink-and-silk-set",
+        "status": "accepted",
+        "observations": "Human performers, flowing red silk, ink landscape, suspended fabric bridge and huge red-and-monochrome valley payoff. Physical branded film case clearly visible. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "15-the-popcorn-orbit",
+        "status": "accepted",
+        "observations": "Human zero-gravity comic performances, drifting popcorn and cosmic ringed-planet reveal. Clear physical brand case early and late. Small native uniform patches and instrument details remain incidental. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "16-the-desert-ribbon-rally",
+        "status": "accepted",
+        "observations": "Human camera buggy and companions, salt-flat speed, sandstone arches, giant fabric choreography and aerial ribbon spiral. Clear early physical logo case. Native final scene favors camera and performers rather than a second readable case. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "17-the-museum-of-maybe",
+        "status": "accepted",
+        "observations": "Two warm human performances, balancing sculptures, spatial transitions, spiral slide and orbiting art payoff. ONECOOL AIFX mark appears on a physical carried film bag instead of the rigid case requested. No animals, title cards, subtitles or text boxes observed."
+      },
+      {
+        "film_id": "18-the-midnight-light-kitchen",
+        "status": "accepted",
+        "observations": "No-cast culinary light choreography: ceramic shell releases a small sunrise, copper pans and prism shape colorful light into a galaxy sphere. Physical ONECOOL AIFX case appears throughout. No animals, title cards, subtitles or text boxes observed. Native synchronized Foley-only sound design was requested; no sound edit was applied."
+      }
+    ],
+    "limitations": "Temporal sheets sample the films rather than proving every inter-frame detail. Native visual continuity, prop shape and branding can vary. Original provider bytes are retained; no correction, title, graphics or sound edit was applied."
+  },
+  "authentic_logo_source": {
+    "asset": "assets/brand/onecool-logo.png",
+    "url": "https://charsiufan.onecool.ai/onecool-logo.png",
+    "role": "Authentic ONECOOL AIFX identity supplied as a separate video reference; no post-edit logo overlay",
+    "sha256": "596b3a55067fa6a4f6fdeca25aefb92a24e156ad7d9f4f9794fffad784caa916"
+  },
+  "delivery": [
+    {
+      "local_path": "sources/09-the-snack-sized-blockbuster.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/09-the-snack-sized-blockbuster.mp4",
+      "bytes": 43013098,
+      "sha256": "7e237c111c21577858fa6cd97fe4be1cb5b4455c33abb0215c48ccc9cdd0d12e",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"56061742c224eedb8f59286470462789\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/10-the-paper-street-parade.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/10-the-paper-street-parade.mp4",
+      "bytes": 44551589,
+      "sha256": "c7dca8b10f4c2764033d0369377f3c111bd5954ca15a8e1b2854fb0eda6fc1ab",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"4ae2dd09baeaf42cb4287b52b41c85eb\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/11-the-jelly-lens.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/11-the-jelly-lens.mp4",
+      "bytes": 31870183,
+      "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"d4628de618c4e2aa653c1b65973ef4e1\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/12-the-clay-set-catastrophe.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/12-the-clay-set-catastrophe.mp4",
+      "bytes": 38452931,
+      "sha256": "b9557f599c42711291f419aae35d8fa6b69f3039df5d69aa42072c5d6518997f",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"92e6167339edcf4a8425c68ec56cb050\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/13-the-neon-lens-run.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/13-the-neon-lens-run.mp4",
+      "bytes": 59089163,
+      "sha256": "55bd47c0c1bd83c8520590e235132dd740af4fde0a54d95c9a9bd4b491bca9a6",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"917047f21f90ded310ee359622662daa\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/14-the-ink-and-silk-set.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/14-the-ink-and-silk-set.mp4",
+      "bytes": 48752152,
+      "sha256": "2f73385df7c250afa789a79782bd0fa2062cfe5fbd8a8821a02aa0647e35620c",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"839e9507c7dbd8849f488fb47cbf309b\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/15-the-popcorn-orbit.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/15-the-popcorn-orbit.mp4",
+      "bytes": 50335518,
+      "sha256": "faee9679bb7a81f6eeee97d7e7c0d90ed6aa684af4b672d6039419a21b5d54cf",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"226b0c95d51b92c9f019540a0d3eb86c\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/16-the-desert-ribbon-rally.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/16-the-desert-ribbon-rally.mp4",
+      "bytes": 41724075,
+      "sha256": "2c4a16ce0c75071ff01468841306c8697379e33e6472647e5e993195d8170971",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"e1a29df6971f2a5a9fdd8012a18a615b\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/17-the-museum-of-maybe.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/17-the-museum-of-maybe.mp4",
+      "bytes": 42038925,
+      "sha256": "54d44561cf736f6d3ba266e811d8d7bb653cf1c820bc016ee2828c7af36f2e7a",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"674804bb72e8cf846221550dc328f9f4\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    },
+    {
+      "local_path": "sources/18-the-midnight-light-kitchen.mp4",
+      "category": "final",
+      "key": "campaigns/20261015T090200Z-promo-ten/18-the-midnight-light-kitchen.mp4",
+      "bytes": 58615008,
+      "sha256": "5522974a638cd16dad3262ca690f6ac5623e997a577f11f5ab1f78e22624acd9",
+      "content_type": "video/mp4",
+      "bucket": "aifx-studio-campaign",
+      "etag": "\"75bf07769289f21c33224d3a1d4cef38\"",
+      "readback_sha256_matches": true,
+      "downloaded_media_full_decode_passed": true,
+      "range_playback_verified": true,
+      "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+      "status": "uploaded_and_verified"
+    }
+  ],
+  "estimated_generation_list_price_usd": 171.91652,
+  "actual_invoice_cost_usd": null,
+  "native_delivery": "Provider MP4 bytes uploaded unchanged; no transcoding, trimming, retiming, scaling, graphics or audio edits. Requested 30 seconds at nominal 1080p/21:9; exact native duration/codec/dimensions are retained.",
+  "original_campaign_preserved": true,
+  "rejected_generation_attempts": [
+    {
+      "film_id": "11-the-corridor-that-danced",
+      "job_id": "cgt-20261015170617-jtl3o",
+      "status": "failed",
+      "provider_code": "OutputVideoSensitiveContentDetected.PolicyViolation",
+      "provider_reason": "Output may be related to copyright restrictions",
+      "disposition": "No video returned; no reattempt of this concept. Replaced with a substantially different original object-led CGI story, 11-the-jelly-lens."
+    },
+    {
+      "film_id": "13-the-neon-lens-run",
+      "job_id": "cgt-20261015170621-voemq",
+      "status": "failed",
+      "provider_code": "OutputAudioSensitiveContentDetected.PolicyViolation",
+      "provider_reason": "Generated output audio may relate to copyright restrictions",
+      "disposition": "No MP4 returned. New generation requests entirely original Foley-only sound effects, with no music or melody; original failed ledger preserved in records/attempts."
+    },
+    {
+      "film_id": "18-the-midnight-light-kitchen",
+      "job_id": "cgt-20261015170627-u5pa6",
+      "status": "failed",
+      "provider_code": "OutputAudioSensitiveContentDetected.PolicyViolation",
+      "provider_reason": "Generated output audio may relate to copyright restrictions",
+      "disposition": "No MP4 returned. New generation requests entirely original Foley-only sound effects, with no music or melody; original failed ledger preserved in records/attempts."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # AIFX Studio · Make room for your imagination
 
-Four completed original 30-second campaign films, commissioned in the attached brief. All four clean MP4s are uploaded and verified in the private `aifx-studio-campaign` R2 bucket, together with source clips, reference images, poster frames and the production-assets ZIP (17 objects total).
+Eighteen completed ONECOOL AIFX campaign films across three batches: the original four films, four additional native stories/trailers, and ten distinct fun, immersive promos. All are uploaded and verified in the private `aifx-studio-campaign` R2 bucket. The original four-film delivery includes source clips, reference images, poster frames and the production-assets ZIP (17 objects); the later fourteen deliveries are unmodified native provider MP4s.
 
 **Original batch direction:** These first four videos are clean cinematic masters with no added title, subtitle, text box, UI overlay, logo, or text end card. Their complete 27-second narrative source is retimed to exactly 30 seconds, with synchronized pitch-preserving audio adjustment. See `docs/editing-clean.md` for the original batch edit; later batches below follow the newer native-only instruction.
 
@@ -17,6 +17,6 @@ Milestone commits are pushed to `main` in `henryocaifx/onecool-afix-campaign`, a
 
 The additional human-led, unedited native Seedance batch is tracked in [Four New Worlds](native-campaign-20261015/README.md). Its source files, records and R2 prefix remain separate from the original four films.
 
-Ten further fun and immersive campaign promos are tracked in [Ten Ways Into Wonder](promo-ten-20261015/README.md). Human casts are optional. Later batches request the authentic ONECOOL AIFX mark inside the scene, no titles/subtitles/text boxes, and direct R2 delivery of the provider MP4 with no transcoding or post-editing.
+Ten further completed fun and immersive campaign promos are tracked in [Ten Ways Into Wonder](promo-ten-20261015/README.md). Human casts are optional. Later batches request the authentic ONECOOL AIFX mark inside the scene, no titles/subtitles/text boxes, and direct R2 delivery of the provider MP4 with no transcoding or post-editing.
 
 Delivery prefix: `campaigns/20261015T075922Z-7d16e228/`. Every final is 2520 × 1080, exact 21:9, 24 fps / 720 frames, H.264 yuv420p with 48 kHz AAC stereo. Signed URLs are in the local `deliverables-manifest.json`; they expire **2026-10-22 16:27:57 Asia/Taipei**. The committed `manifest.json` retains public object keys, hashes, prompts, settings, usage and verification evidence without publishing signed access URLs.

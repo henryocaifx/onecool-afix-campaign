@@ -1,0 +1,470 @@
+{
+  "objects": [
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/01-the-little-idea-that-escaped.mp4",
+      "etag": "df38bba21cebf30fd45e18ea9254f7f4",
+      "last_modified": "2026-10-15T08:29:47.262Z",
+      "size": 29557257,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "05f21505b50a1d74c114f8a5f5644acbab1d7dbc599a27e80eeda8bbd4b4f111",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/02-deadline-impossible.mp4",
+      "etag": "f521ab340bfb0e69d198154aad08dd9d",
+      "last_modified": "2026-10-15T08:29:58.601Z",
+      "size": 44393503,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "91d30196af6e848d787fd41bf3b9a493c3704095f8a334fafbe6568db0323223",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/03-the-last-spark.mp4",
+      "etag": "d2f3c9a0de45947481f74f037cc4b653",
+      "last_modified": "2026-10-15T08:30:10.447Z",
+      "size": 30555673,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "923464cd859a1a1f91183f141adc29eb10dd9863c7c7cf6c9fa4e6a3d92e8623",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/04-the-imagination-heist.mp4",
+      "etag": "d4be994504e0f27c3e913299a8b65ab6",
+      "last_modified": "2026-10-15T08:30:20.756Z",
+      "size": 35228015,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "0d7b415eea314b08949916e432afbd1c425fcc3454dec472490ce81f4356a59c",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/aifx-studio-production-assets.zip",
+      "etag": "83234499b6ec23387a22c0e226aeb00d",
+      "last_modified": "2026-10-15T08:31:32.598Z",
+      "size": 31913453,
+      "http_metadata": {
+        "contentType": "application/zip",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "1dbc1d314917a2cfa38d1833c9d9db205ee77efb93a6b8d564464f6fdddf54c5",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/assets/references/01-wren-pip.png",
+      "etag": "c69923bd3df92ea03e6d74cf110d0c1c",
+      "last_modified": "2026-10-15T08:31:21.187Z",
+      "size": 2188491,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "757f7c5cfd070d73b8b60a87dc5ce24377073aee97b3b81dd2211e2ca2923300",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/assets/references/02-rue-deadline.png",
+      "etag": "296978c93bd334083ccf122d10fbe0cf",
+      "last_modified": "2026-10-15T08:31:23.210Z",
+      "size": 2597311,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "4505e87dec20dd757e371f9bdc3ea73ad81419b6402010ac9b7def7cd87d0443",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/assets/references/03-luma-spark.png",
+      "etag": "2c0d96e7321b5eee7319822c4ff33a14",
+      "last_modified": "2026-10-15T08:31:25.126Z",
+      "size": 2671509,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "c583fc58add2db9bd42352bb6d8bac32ed5bce3fcc5a062918a10d06db7312d0",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/assets/references/04-heist-crew.png",
+      "etag": "e782c403a694fd2a215317b06897d336",
+      "last_modified": "2026-10-15T08:31:28.282Z",
+      "size": 2864203,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "5d913650adcf0b3a05b06239209e17605759a2d592eae64b99cc9a1efed6ffae",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/posters/01-the-little-idea-that-escaped.png",
+      "etag": "393bedc44ad8bfce7b201bf4f1288c98",
+      "last_modified": "2026-10-15T08:31:11.695Z",
+      "size": 3251743,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "802e07db519519939b4875e1bbe11435bbec16847a059ba270cd57e913e70782",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/posters/02-deadline-impossible.png",
+      "etag": "f8e964369d30b5135b56d89b1759491d",
+      "last_modified": "2026-10-15T08:31:14.552Z",
+      "size": 5650425,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "93e29e8e2de77389446ac653b644957c717a604bd93902ce75b1328b0f60c78f",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/posters/03-the-last-spark.png",
+      "etag": "096b5a7ff7031956e25609cac5377ddd",
+      "last_modified": "2026-10-15T08:31:16.896Z",
+      "size": 5000307,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "e34f5a4d7087fc028d2ecedb8b22b24f4de80fd2055ea5f1cb8efc5cfb5a1674",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/posters/04-the-imagination-heist.png",
+      "etag": "c02503b5d0f010f4e9c044e5ae8fbc4f",
+      "last_modified": "2026-10-15T08:31:19.260Z",
+      "size": 5176279,
+      "http_metadata": {
+        "contentType": "image/png",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "fff268b9b51dd698949dcac0101b68787c9f38811245b515a97bda0ccee9c9d0",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/sources/01-the-little-idea-that-escaped.mp4",
+      "etag": "efd93613c6803c552cab8f10ca6b385d",
+      "last_modified": "2026-10-15T08:30:34.122Z",
+      "size": 47795060,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "cafdcd323ffa9b84645acaa270ebb588a8cab5885ea28515f40dcd3609bef34b",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/sources/02-deadline-impossible.mp4",
+      "etag": "a7f5caa995f09100e483a96f9a0609c1",
+      "last_modified": "2026-10-15T08:30:43.122Z",
+      "size": 87552177,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "e299d56d1f7562de5befae2ffc4a97776cf7dd2e123b9d5444928dd4af20f679",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/sources/03-the-last-spark.mp4",
+      "etag": "b6bf3a4aa27ce54bd4d1e29471f4dcd1",
+      "last_modified": "2026-10-15T08:30:59.509Z",
+      "size": 54822108,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "2b0b975efa0718b687c3a930eeda8d66101f8836ecdf64c6a0e4a78ff5e8d356",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T075922Z-7d16e228/sources/04-the-imagination-heist.mp4",
+      "etag": "9e39af5098df26b0a3798088dc39392a",
+      "last_modified": "2026-10-15T08:31:07.828Z",
+      "size": 60616761,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "68d3b3b6754253db560812a701c2e583ab9625d5e2f3f732a59797feeed7b018",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T083844Z-native/05-the-rooftop-cinema.mp4",
+      "etag": "8f622958e0bff748782305850a697530",
+      "last_modified": "2026-10-15T09:00:47.038Z",
+      "size": 62839943,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "56df80d6bd44a1cfc72c53a2ce23adc18ad1a10f815d6da3c39641b1c38aa6ff",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T083844Z-native/06-the-gravity-laundrette.mp4",
+      "etag": "964f1b4d87e2b19989516ba7f46d8965",
+      "last_modified": "2026-10-15T09:01:05.967Z",
+      "size": 66097883,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "a78dc84dc0dee99fda822df58c30d1480cbd4d8ce43b795526a6568b87078081",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T083844Z-native/07-the-ninth-platform.mp4",
+      "etag": "54cc3d0632b9a54710aa03a85e94a36a",
+      "last_modified": "2026-10-15T09:01:24.379Z",
+      "size": 67461417,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "224d661c59bbb51e383135cdea61762269834371b1bca492b31582e1b793839f",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T083844Z-native/08-the-glass-tide.mp4",
+      "etag": "f6def0dd5cfe1a8baf2e784610fb93f2",
+      "last_modified": "2026-10-15T09:01:43.113Z",
+      "size": 80077025,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "7686987a1bf9a89656e7627fb4cf68266263b049309f18059d3710475d862ee0",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/09-the-snack-sized-blockbuster.mp4",
+      "etag": "56061742c224eedb8f59286470462789",
+      "last_modified": "2026-10-15T09:28:39.780Z",
+      "size": 43013098,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "7e237c111c21577858fa6cd97fe4be1cb5b4455c33abb0215c48ccc9cdd0d12e",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/10-the-paper-street-parade.mp4",
+      "etag": "4ae2dd09baeaf42cb4287b52b41c85eb",
+      "last_modified": "2026-10-15T09:28:53.589Z",
+      "size": 44551589,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "c7dca8b10f4c2764033d0369377f3c111bd5954ca15a8e1b2854fb0eda6fc1ab",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/11-the-jelly-lens.mp4",
+      "etag": "d4628de618c4e2aa653c1b65973ef4e1",
+      "last_modified": "2026-10-15T09:29:06.975Z",
+      "size": 31870183,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/12-the-clay-set-catastrophe.mp4",
+      "etag": "92e6167339edcf4a8425c68ec56cb050",
+      "last_modified": "2026-10-15T09:29:20.272Z",
+      "size": 38452931,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "b9557f599c42711291f419aae35d8fa6b69f3039df5d69aa42072c5d6518997f",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/13-the-neon-lens-run.mp4",
+      "etag": "917047f21f90ded310ee359622662daa",
+      "last_modified": "2026-10-15T09:29:33.864Z",
+      "size": 59089163,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "55bd47c0c1bd83c8520590e235132dd740af4fde0a54d95c9a9bd4b491bca9a6",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/14-the-ink-and-silk-set.mp4",
+      "etag": "839e9507c7dbd8849f488fb47cbf309b",
+      "last_modified": "2026-10-15T09:29:49.001Z",
+      "size": 48752152,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "2f73385df7c250afa789a79782bd0fa2062cfe5fbd8a8821a02aa0647e35620c",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/15-the-popcorn-orbit.mp4",
+      "etag": "226b0c95d51b92c9f019540a0d3eb86c",
+      "last_modified": "2026-10-15T09:30:04.775Z",
+      "size": 50335518,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "faee9679bb7a81f6eeee97d7e7c0d90ed6aa684af4b672d6039419a21b5d54cf",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/16-the-desert-ribbon-rally.mp4",
+      "etag": "e1a29df6971f2a5a9fdd8012a18a615b",
+      "last_modified": "2026-10-15T09:30:20.772Z",
+      "size": 41724075,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "2c4a16ce0c75071ff01468841306c8697379e33e6472647e5e993195d8170971",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/17-the-museum-of-maybe.mp4",
+      "etag": "674804bb72e8cf846221550dc328f9f4",
+      "last_modified": "2026-10-15T09:30:35.795Z",
+      "size": 42038925,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "54d44561cf736f6d3ba266e811d8d7bb653cf1c820bc016ee2828c7af36f2e7a",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    },
+    {
+      "key": "campaigns/20261015T090200Z-promo-ten/18-the-midnight-light-kitchen.mp4",
+      "etag": "75bf07769289f21c33224d3a1d4cef38",
+      "last_modified": "2026-10-15T09:30:49.545Z",
+      "size": 58615008,
+      "http_metadata": {
+        "contentType": "video/mp4",
+        "cacheControl": "private, no-store"
+      },
+      "custom_metadata": {
+        "sha256": "5522974a638cd16dad3262ca690f6ac5623e997a577f11f5ab1f78e22624acd9",
+        "campaign": "aifx-studio-20261015"
+      },
+      "storage_class": "Standard"
+    }
+  ],
+  "managed_public_domain_enabled": false
+}
