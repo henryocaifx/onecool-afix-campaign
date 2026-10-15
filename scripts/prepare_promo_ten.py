@@ -189,6 +189,6 @@ for c in concepts:
 (ROOT/'README.md').write_text('# ONECOOL AIFX · Ten Ways Into Wonder\n\nTen distinct fun, immersive campaign films. Requested: 30 seconds, 1080p, 21:9, native synchronized music/effects, no watermark. Casts include people, animated objects and abstract light; no animals or titles/subtitles/text boxes. The authentic brand mark is requested on physical film equipment.\n\nSee [treatments](docs/treatments.md) and [exact API prompts](records/films.json). Each MP4 will be uploaded to private R2 unchanged from Seedance, with no transcoding or post-editing. Native codec, exact dimensions and timing are retained and documented. Videos, signed URLs and credentials are excluded from Git.\n')
 for name in ['verify_native.py','prepare_transfer.py','build_manifest.py']:
  src=(REPO/'native-campaign-20261015/scripts'/name).read_text()
- src=src.replace('only the four unmodified','only the unmodified').replace('complete=len(delivered)==4','complete=len(delivered)==len(films)')
+ src=src.replace('only the four unmodified','only the unmodified').replace('complete=len(delivered)==4','complete=len(delivered)==len(films)').replace('All casts are human.','Casts include people and animated objects; human casts were optional.')
  (ROOT/'scripts'/name).write_text(src)
 print('Prepared',len(films),'original film treatments in',ROOT)
