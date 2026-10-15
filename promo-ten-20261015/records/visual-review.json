@@ -1,14 +1,47 @@
 {
-  "method":"Human inspection of one-frame-per-second temporal sheets and selected full-resolution frames; full native media decode is documented separately.",
-  "no_post_editing":true,
-  "films":[
-    {"film_id":"09-the-snack-sized-blockbuster","status":"accepted","observations":"Macro snack-table adventure, expressive miniature crew, spoon crossing, bubble ride and enormous sunset food landscape. Clear physical ONECOOL AIFX case branding. Native scale continuity is fantastical and varies between the lead and supporting crew. No animals, narrative title, subtitles or text boxes observed."},
-    {"film_id":"10-the-paper-street-parade","status":"accepted","observations":"Tactile paper camera and city, lively geometric parade, folded bridge and elaborate city unfolding. Physical logo on the paper equipment case. No people required; no animals, title cards, subtitles or text boxes observed."},
-    {"film_id":"12-the-clay-set-catastrophe","status":"accepted","observations":"Handmade clay camera, lamp and microphone react to a flattened moon, build a circular set and ride through the miniature world. Clear physical logo case appears early and late. No animals, title cards, subtitles or text boxes observed."},
-    {"film_id":"14-the-ink-and-silk-set","status":"accepted","observations":"Human performers, flowing red silk, ink landscape, suspended fabric bridge and huge red-and-monochrome valley payoff. Physical branded film case clearly visible. No animals, title cards, subtitles or text boxes observed."},
-    {"film_id":"15-the-popcorn-orbit","status":"accepted","observations":"Human zero-gravity comic performances, drifting popcorn and cosmic ringed-planet reveal. Clear physical brand case early and late. Small native uniform patches and instrument details remain incidental. No animals, title cards, subtitles or text boxes observed."},
-    {"film_id":"16-the-desert-ribbon-rally","status":"accepted","observations":"Human camera buggy and companions, salt-flat speed, sandstone arches, giant fabric choreography and aerial ribbon spiral. Clear early physical logo case. Native final scene favors camera and performers rather than a second readable case. No animals, title cards, subtitles or text boxes observed."},
-    {"film_id":"17-the-museum-of-maybe","status":"accepted","observations":"Two warm human performances, balancing sculptures, spatial transitions, spiral slide and orbiting art payoff. ONECOOL AIFX mark appears on a physical carried film bag instead of the rigid case requested. No animals, title cards, subtitles or text boxes observed."}
+  "method": "Human inspection of one-frame-per-second temporal sheets and selected full-resolution frames; full native media decode is documented separately.",
+  "no_post_editing": true,
+  "films": [
+    {
+      "film_id": "09-the-snack-sized-blockbuster",
+      "status": "accepted",
+      "observations": "Macro snack-table adventure, expressive miniature crew, spoon crossing, bubble ride and enormous sunset food landscape. Clear physical ONECOOL AIFX case branding. Native scale continuity is fantastical and varies between the lead and supporting crew. No animals, narrative title, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "10-the-paper-street-parade",
+      "status": "accepted",
+      "observations": "Tactile paper camera and city, lively geometric parade, folded bridge and elaborate city unfolding. Physical logo on the paper equipment case. No people required; no animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "11-the-jelly-lens",
+      "status": "accepted",
+      "observations": "Distinct polished CGI: translucent amber lens cube squashes, travels copper rails, stretches across a gap and settles into its physical branded case. Strong material detail and immersive geometric environment. No human cast needed; no animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "12-the-clay-set-catastrophe",
+      "status": "accepted",
+      "observations": "Handmade clay camera, lamp and microphone react to a flattened moon, build a circular set and ride through the miniature world. Clear physical logo case appears early and late. No animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "14-the-ink-and-silk-set",
+      "status": "accepted",
+      "observations": "Human performers, flowing red silk, ink landscape, suspended fabric bridge and huge red-and-monochrome valley payoff. Physical branded film case clearly visible. No animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "15-the-popcorn-orbit",
+      "status": "accepted",
+      "observations": "Human zero-gravity comic performances, drifting popcorn and cosmic ringed-planet reveal. Clear physical brand case early and late. Small native uniform patches and instrument details remain incidental. No animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "16-the-desert-ribbon-rally",
+      "status": "accepted",
+      "observations": "Human camera buggy and companions, salt-flat speed, sandstone arches, giant fabric choreography and aerial ribbon spiral. Clear early physical logo case. Native final scene favors camera and performers rather than a second readable case. No animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "17-the-museum-of-maybe",
+      "status": "accepted",
+      "observations": "Two warm human performances, balancing sculptures, spatial transitions, spiral slide and orbiting art payoff. ONECOOL AIFX mark appears on a physical carried film bag instead of the rigid case requested. No animals, title cards, subtitles or text boxes observed."
+    }
   ],
-  "limitations":"Temporal sheets sample the films rather than proving every inter-frame detail. Native visual continuity, prop shape and branding can vary. Original provider bytes are retained; no correction, title, graphics or sound edit was applied."
+  "limitations": "Temporal sheets sample the films rather than proving every inter-frame detail. Native visual continuity, prop shape and branding can vary. Original provider bytes are retained; no correction, title, graphics or sound edit was applied."
 }

@@ -1,6 +1,6 @@
 {
   "film_id": "11-the-jelly-lens",
-  "status": "running",
+  "status": "succeeded",
   "submitted_at_utc": "2026-10-15T09:16:02Z",
   "endpoint_id": "ep-20260807143930-zwn48",
   "foundation_model": "dreamina-seedance-2-5-260628",
@@ -32,15 +32,37 @@
   "result": {
     "id": "cgt-20261015171603-bfoyy",
     "model": "dreamina-seedance-2-5-260628",
-    "status": "running",
+    "status": "succeeded",
+    "usage": {
+      "completion_tokens": 1469372,
+      "total_tokens": 1469372
+    },
     "created_at": 1792055766,
-    "updated_at": 1792055766,
+    "updated_at": 1792056191,
+    "seed": 909353,
+    "resolution": "1080p",
+    "ratio": "21:9",
+    "duration": 30,
+    "framespersecond": 24,
     "service_tier": "default",
     "execution_expires_after": 172800,
     "generate_audio": true,
     "draft": false,
     "priority": 0,
     "output_format": "mp4",
-    "content": {}
+    "content": {
+      "video_url": "[temporary provider URL omitted]"
+    }
+  },
+  "cost": {
+    "actual_invoice_usd": null,
+    "list_price_usd_per_million_tokens": 11.7,
+    "estimated_list_price_usd": 17.191652,
+    "basis": "Published 1080p rate without input video; account discounts/credits unknown"
+  },
+  "source": {
+    "path": "sources/11-the-jelly-lens.mp4",
+    "bytes": 31870183,
+    "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03"
   }
 }
