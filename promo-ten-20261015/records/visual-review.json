@@ -23,6 +23,11 @@
       "observations": "Handmade clay camera, lamp and microphone react to a flattened moon, build a circular set and ride through the miniature world. Clear physical logo case appears early and late. No animals, title cards, subtitles or text boxes observed."
     },
     {
+      "film_id": "13-the-neon-lens-run",
+      "status": "accepted",
+      "observations": "Human courier and immersive hoverboard pursuit through a neon city, then a clear arrival at a rooftop production set. Physical ONECOOL AIFX lens case appears prominently. Native background neon signage includes incidental lettering despite the prompt requesting geometric signs. No narrative title, subtitles, text boxes or animals observed. Original Foley-only sound design requested; no audio edit applied."
+    },
+    {
       "film_id": "14-the-ink-and-silk-set",
       "status": "accepted",
       "observations": "Human performers, flowing red silk, ink landscape, suspended fabric bridge and huge red-and-monochrome valley payoff. Physical branded film case clearly visible. No animals, title cards, subtitles or text boxes observed."
@@ -41,6 +46,11 @@
       "film_id": "17-the-museum-of-maybe",
       "status": "accepted",
       "observations": "Two warm human performances, balancing sculptures, spatial transitions, spiral slide and orbiting art payoff. ONECOOL AIFX mark appears on a physical carried film bag instead of the rigid case requested. No animals, title cards, subtitles or text boxes observed."
+    },
+    {
+      "film_id": "18-the-midnight-light-kitchen",
+      "status": "accepted",
+      "observations": "No-cast culinary light choreography: ceramic shell releases a small sunrise, copper pans and prism shape colorful light into a galaxy sphere. Physical ONECOOL AIFX case appears throughout. No animals, title cards, subtitles or text boxes observed. Native synchronized Foley-only sound design was requested; no sound edit was applied."
     }
   ],
   "limitations": "Temporal sheets sample the films rather than proving every inter-frame detail. Native visual continuity, prop shape and branding can vary. Original provider bytes are retained; no correction, title, graphics or sound edit was applied."

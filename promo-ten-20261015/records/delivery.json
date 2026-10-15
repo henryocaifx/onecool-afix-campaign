@@ -1,0 +1,47 @@
+[
+  {
+    "local_path": "sources/09-the-snack-sized-blockbuster.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T090200Z-promo-ten/09-the-snack-sized-blockbuster.mp4",
+    "bytes": 43013098,
+    "sha256": "7e237c111c21577858fa6cd97fe4be1cb5b4455c33abb0215c48ccc9cdd0d12e",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"56061742c224eedb8f59286470462789\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+    "status": "uploaded_and_verified"
+  },
+  {
+    "local_path": "sources/10-the-paper-street-parade.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T090200Z-promo-ten/10-the-paper-street-parade.mp4",
+    "bytes": 44551589,
+    "sha256": "c7dca8b10f4c2764033d0369377f3c111bd5954ca15a8e1b2854fb0eda6fc1ab",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"4ae2dd09baeaf42cb4287b52b41c85eb\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+    "status": "uploaded_and_verified"
+  },
+  {
+    "local_path": "sources/11-the-jelly-lens.mp4",
+    "category": "final",
+    "key": "campaigns/20261015T090200Z-promo-ten/11-the-jelly-lens.mp4",
+    "bytes": 31870183,
+    "sha256": "74403a5f863b6e37a8fd2574ca5c19e5f98598969d3e61b95d4cc3606ef6dd03",
+    "content_type": "video/mp4",
+    "bucket": "aifx-studio-campaign",
+    "etag": "\"d4628de618c4e2aa653c1b65973ef4e1\"",
+    "readback_sha256_matches": true,
+    "downloaded_media_full_decode_passed": true,
+    "range_playback_verified": true,
+    "download_expires_at_utc": "2026-10-22T09:28:08.000Z",
+    "status": "uploaded_and_verified"
+  }
+]
